@@ -1,0 +1,21 @@
+# ShrineTrackerPatterns.txt
+google-analytics.com
+facebook.net/tr
+doubleclick.net
+adservice.google.com
+ads.yahoo.com
+ads.twitter.com
+pixel.quantserve.com
+track.adform.net
+beacon.krxd.net
+scorecardresearch.com
+cdn.taboola.com
+cdn.heapanalytics.com
+api.segment.io
+snapchat.com/pixel
+tiktok.com/pixel
+utm_source
+utm_medium
+utm_campaign
+gclid
+fbclid
