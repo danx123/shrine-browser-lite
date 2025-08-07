@@ -2,17 +2,36 @@
 
 **Shrine Browser Lite** adalah browser ringan, cepat, dan efisien buatan lokal dengan performa tinggi, konsumsi RAM rendah, serta didesain dengan struktur modular dan fitur modern layaknya browser kelas atas.
 
+## ⚠️ Night Build Source (v2.6)
+
+> Source code yang tersedia saat ini merupakan versi **Night Build v2.6**.  
+> Versi ini merupakan tahapan awal dari pengembangan, dan **belum mencerminkan fitur penuh dari versi stabil terbaru.**
+
+### 🛠 Perbedaan dengan versi stabil (v2.8.2):
+
+- History masih menggunakan format `.txt`
+- Sistem kredensial masih dummy (belum tersimpan)
+- Bookmark belum menggunakan database (SQLite)
+- Belum tersedia panel manajemen ekstensi
+- Fungsi navigasi dan download **sudah berfungsi dengan baik**
+
+👉 **Untuk versi stabil dan fitur lengkap**, silakan unduh dari halaman [Releases](https://github.com/danx123/shrine-browser-lite/releases).
+
 ---
 
-## 🚀 Fitur Unggulan
+## 🚀 Fitur Utama (versi stabil)
 
-- 🔗 **Multi-tab Support** – Buka banyak tab tanpa mengorbankan performa.
-- 📑 **Bookmark Toolbar** – Pin halaman favorit langsung di toolbar.
-- 🔒 **Kredensial Manager** – Simpan & login otomatis dengan popup interaktif.
-- 🧠 **Optimasi GPU** – Performa rendering lebih halus & efisien.
-- 💾 **Cache & Storage System** – Arsitektur storage mirip Chrome (shrine_cache, shrine_storage).
-- 🧰 **View Page Source** – Fitur inspect kode halaman seperti browser modern.
-- 🧪 **Bugfix & Patch Aktif** – Diperbarui secara berkala berdasarkan feedback real-time pengguna.
+- UI modern & ringan
+- Multi-tab support
+- Bookmark manager berbasis SQLite
+- Manajemen kredensial (simpan otomatis)
+- View source page
+- Modular system: `shrine_storage`, `shrine_cache`, `macan_ext`, dll
+- Pengaturan tema & halaman beranda
+- GPU rendering optimization
+- RAM usage sangat efisien, cocok untuk multitasking
+- Sudah dilengkapi installer & siap digunakan secara portable
+
 
 ---
 
