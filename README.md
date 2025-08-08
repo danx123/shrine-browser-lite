@@ -53,14 +53,10 @@ Shrine Browser Lite/
 
 ---
 
-## 📝 Changelog v2.8.2
+## 📝 Changelog v2.8.3
 
-- [✔] Fixed a bug causing a tab to crash
-- [✔] Improved Google account login to be more persistent
-- [✔] Save credentials popup + auto-login
-- [✔] Bookmark toolbar + bookmark manager panel
-- [✔] Internal optimizations (RAM usage, storage handling, etc.)
-
+- [✔] Disable ShrineInterceptor
+- [✔] Fix Youtube Issue
 ---
 
 ## 📸 Screenshots
