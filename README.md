@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v2.8.2):
+### 🛠 Differences from the stable version (v2.8.3):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
