@@ -1,93 +1,92 @@
-# 🦁 Shrine Browser Lite v2.8.2
+# 🦁 Shrine Browser Lite v2.8.3
 
-**Shrine Browser Lite** adalah browser ringan, cepat, dan efisien buatan lokal dengan performa tinggi, konsumsi RAM rendah, serta didesain dengan struktur modular dan fitur modern layaknya browser kelas atas.
+Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
 
-> Source code yang tersedia saat ini merupakan versi **Night Build v2.6**.  
-> Versi ini merupakan tahapan awal dari pengembangan, dan **belum mencerminkan fitur penuh dari versi stabil terbaru.**
+> The currently available source code is Night Build v2.6.
 
-### 🛠 Perbedaan dengan versi stabil (v2.8.2):
+> This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-- History masih menggunakan format `.txt`
-- Sistem kredensial masih dummy (belum tersimpan)
-- Bookmark belum menggunakan database (SQLite)
-- Belum tersedia panel manajemen ekstensi
-- Fungsi navigasi dan download **sudah berfungsi dengan baik**
+### 🛠 Differences from the stable version (v2.8.2):
 
-👉 **Untuk versi stabil dan fitur lengkap**, silakan unduh dari halaman [Releases](https://github.com/danx123/shrine-browser-lite/releases).
+- History still uses the `.txt` format
+- The credential system is still dummy (not saved)
+- Bookmarks do not use a database (SQLite)
+- The extension management panel is not yet available
+- Navigation and download functions **are now working properly**
+
+👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
 ---
 
-## 🚀 Fitur Utama (versi stabil)
+## 🚀 Main Features (stable version)
 
-- UI modern & ringan
+- Modern & lightweight UI
 - Multi-tab support
-- Bookmark manager berbasis SQLite
-- Manajemen kredensial (simpan otomatis)
-- View source page
-- Modular system: `shrine_storage`, `shrine_cache`, `macan_ext`, dll
-- Pengaturan tema & halaman beranda
+- SQLite-based bookmark manager
+- Credential management (auto-save)
+- View page source
+- Modular system: `shrine_storage`, `shrine_cache`, `macan_ext`, etc.
+- Theme & homepage settings
 - GPU rendering optimization
-- RAM usage sangat efisien, cocok untuk multitasking
-- Sudah dilengkapi installer & siap digunakan secara portable
-
+- Highly efficient RAM usage, suitable for multitasking
+- Installer included & ready to use portable
 
 ---
 
-## 📂 Struktur Folder Penting
+## 📂 Important Folder Structure
 
 ```
 Shrine Browser Lite/
 │
 ├── shrine_storage/
-│   ├── Cookies, Favicon, History, Trust Tokens, etc.
-│   └── Local & Session Storage
+│ ├── Cookies, Favicon, History, Trust Tokens, etc.
+│ └── Local & Session Storage
 │
 ├── shrine_cache/
-│   └── Cache_Data/ – Menyimpan data website untuk loading cepat
+│ └── Cache_Data/ – Stores website data for fast loading
 │
 ├── shrine_settings/
-│   └── user_prefs.json – Berisi konfigurasi user
+│ └── user_prefs.json – Contains user configuration
 ```
 
 ---
 
 ## 📝 Changelog v2.8.2
 
-- [✔] Fix bug add tab yang menyebabkan crash
-- [✔] Perbaikan login akun Google agar lebih persist
-- [✔] Popup simpan kredensial + auto-login
-- [✔] Toolbar bookmark + panel pengelola bookmark
-- [✔] Optimasi internal (RAM usage, storage handling, dll)
+- [✔] Fixed a bug causing a tab to crash
+- [✔] Improved Google account login to be more persistent
+- [✔] Save credentials popup + auto-login
+- [✔] Bookmark toolbar + bookmark manager panel
+- [✔] Internal optimizations (RAM usage, storage handling, etc.)
 
 ---
 
 ## 📸 Screenshots
 
-| Tabs & Bookmark | Task Manager RAM Usage |
-|-----------------|------------------------|
+| Tabs & Bookmarks | Task Manager RAM Usage |
+|------------------|----------------------------------|
 <img width="1365" height="767" alt="Screenshot 2025-08-07 150814" src="https://github.com/user-attachments/assets/2c9189bd-4ccf-4348-96cd-801675624ae1" />
-
 
 ---
 
 ## 👨‍💻 Developer
 
-Project ini dibuat dan dikembangkan oleh **Danx Exodus**, dengan semangat inovasi, pembelajaran mandiri, dan konsistensi update untuk memberikan pengalaman browsing terbaik tanpa beban sistem.
+This project is created and developed by **Danx Exodus**, with a spirit of innovation, self-learning, and consistent updates to provide the best browsing experience without system load.
 
 ---
 
-## 🤝 Kontribusi
+## 🤝 Contribution
 
-Ingin berkolaborasi? Jangan ragu untuk [open issue](https://github.com/username/shrine-browser-lite/issues) atau ajukan pull request! Shrine Browser Lite terbuka untuk pengembangan bersama yang sehat & produktif.
-
----
-
-## 📜 Lisensi
-
-MIT License – Bebas digunakan, dipelajari, dimodifikasi, dan dibagikan selama menyertakan atribusi yang sesuai.
+Want to collaborate? Feel free to [open an issue](https://github.com/username/shrine-browser-lite/issues) or submit a pull request! Shrine Browser Lite is open for healthy and productive collaborative development.
 
 ---
 
-> Shrine Browser Lite – Dari yang awalnya hanya proyek iseng, kini menjelma jadi browser yang powerful, hemat memori, dan penuh fitur seperti buatan perusahaan besar.
+## 📜 License
+
+MIT License – Free to use, study, modify, and share as long as proper attribution is included.
+
+---
+
+> Shrine Browser Lite – What started as a fun project has now become a powerful, memory-efficient, and feature-packed browser like those made by major companies.
