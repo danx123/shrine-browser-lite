@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v2.8.3
+# 🦁 Shrine Browser Lite v3.5.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v2.8.3):
+### 🛠 Differences from the stable version (v3.5.0):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -53,17 +53,41 @@ Shrine Browser Lite/
 
 ---
 
-## 📝 Changelog v2.8.3
+## 📝 Changelog v3.5.0
 
-- [✔] Disable ShrineInterceptor
-- [✔] Fix Youtube Issue
----
+Shrine Browser Lite Changelog
+v3.5.0 (August 8, 2025)
+This version focuses on fundamentally improving the user experience (UX) by introducing more standard window functionality and a more intuitive tab interface.
+
+✨ New Features:
+
+Main Window Now Resizable: Full implementation of resizing the main window. You can now easily drag any edge (top, bottom, left, right) and any corner of the window to resize it as desired, providing full layout flexibility.
+
+"Add Tab" Button Next to Tabs: The + button for opening a new tab has been moved from the navigation toolbar to a more familiar position to the right of the last tab. This speeds up workflow and mimics modern browser design.
+
+🛠️ Fixes & Improvements:
+
+Header UI Structure: The header layout has been overhauled to accommodate the new "Add Tab" button. The tab bar will now dynamically fill the available space.
+
+Toolbar Optimizations: The old "Add Tab" button has been removed from the main navigation toolbar to eliminate redundancy and clean up the interface.
+
+Mouse Handling Improvements: The logic for detecting mouse movements and clicks has been refined to differentiate between window moves, window resizing, and interactions with control buttons.
+
+QSS Updates: The stylesheets (QSS) for the light and dark themes have been updated to style the new "Add Tab" button to be consistent with the app's visual theme.
+
+Note: Previous versions (such as v3.3.0) focused on fixing bugs related to maximizing windows and bookmark toolbar functionality.
+
+Added light and dark mode themes
+Changed Total UI to Frameless
+Added AutoUpdate feature to GitHub
+Refactor Total UI
 
 ## 📸 Screenshots
 
 | Tabs & Bookmarks | Task Manager RAM Usage |
 |------------------|----------------------------------|
-<img width="1365" height="767" alt="Screenshot 2025-08-07 150814" src="https://github.com/user-attachments/assets/2c9189bd-4ccf-4348-96cd-801675624ae1" />
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/010a8135-690f-47be-adae-238fa2d35f21" />
+
 
 ---
 
