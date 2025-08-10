@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v3.7.0
+# 🦁 Shrine Browser Lite v4.0.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v3.5.0):
+### 🛠 Differences from the stable version (v4.0.0):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -55,39 +55,47 @@ Shrine Browser Lite/
 
 ---
 
-## 📜 Changelog – Shrine Browser Lite v3.7.0
+## **📝 Changelog – Shrine Browser Lite v4.0.0**
 
-**Release Date: August 10, 2025
-This version brings major updates focused on personalization and a more modern, faster, and more flexible user experience (UX).
+**Release Date:** August 11, 2025
+**Release Type:** Major Update 🚀
+
+### **✨ New Features**
+
+1. **Custom Profile Support**
+
+* Each user now has a unique ID and profile name.
+* The ID and name are displayed in the top left corner and in the profile menu.
+* The Change Name option is available directly from the profile menu.
+* Profile data is stored in profile.json so it persists after the app is closed.
+
+2. **Profile Integration into the Home Page**
+
+* Profiles are automatically injected into home.html using ShrineBridge.
+* The name and ID appear dynamically every time the page is opened.
+* Supports instant updates after changing the profile name.
+
+3. **UI and Logic Refactor**
+
+* Separated profile logic from the browser core to facilitate development.
+* Restructured the code structure to be more **modular** and **readable**.
+* Prepared for profile data integration with advanced features like personalized bookmarks.
 
 ---
 
-### ✨ **New Features**
+### **⚡ Optimizations & Improvements**
 
-* **🔹 New Home Page (home.html)**
-
-* **Bookmark Panel** directly on the home page for quick access to favorite sites.
-* **Automatic Favicon** for each bookmark for a cleaner and more recognizable appearance.
-* **Aesthetic Hover Effects** inspired by Chrome for smoother interactions.
-* **Dynamic Wallpaper** on the home page, changeable to suit your mood or theme.
+* Optimized `home.html` loading speed when profile data changes.
+* Removed obsolete and unused code to improve performance.
+* Fixed a minor bug in the menu bar that caused labels to not refresh.
 
 ---
-
-### 🛠 **Improvements & Fixes**
-
-* Optimized home page rendering to make it lighter even when using high-quality wallpapers.
-* Syncs profile themes with the browser UI for a consistent experience.
-* Minor improvements to tab transitions and menu navigation.
-
----
-
-**Note:**
-Version 3.7.0 is designed to give Shrine Browser Lite a pro, aesthetic, and premium feel, without sacrificing lightness and performance.
 
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/654583e2-0320-48c9-8db9-13bff5f8bfc6" />
+<img width="1365" height="767" alt="Screenshot 2025-08-11 010732" src="https://github.com/user-attachments/assets/681668a3-1f16-41eb-89a8-d6e2091dae35" />
+
 
 
 
