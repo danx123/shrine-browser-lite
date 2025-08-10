@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v3.5.0
+# 🦁 Shrine Browser Lite v3.7.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -53,40 +53,46 @@ Shrine Browser Lite/
 
 ---
 
-## 📝 Changelog v3.5.0
+---
 
-Shrine Browser Lite Changelog
-v3.5.0 (August 8, 2025)
-This version focuses on fundamentally improving the user experience (UX) by introducing more standard window functionality and a more intuitive tab interface.
+## 📜 Changelog – Shrine Browser Lite v3.7.0
 
-✨ New Features:
+**Release Date: August 10, 2025
+This version brings major updates focused on personalization and a more modern, faster, and more flexible user experience (UX).
 
-Main Window Now Resizable: Full implementation of resizing the main window. You can now easily drag any edge (top, bottom, left, right) and any corner of the window to resize it as desired, providing full layout flexibility.
+---
 
-"Add Tab" Button Next to Tabs: The + button for opening a new tab has been moved from the navigation toolbar to a more familiar position to the right of the last tab. This speeds up workflow and mimics modern browser design.
+### ✨ **New Features**
 
-🛠️ Fixes & Improvements:
+* **🔹 New Home Page (home.html)**
 
-Header UI Structure: The header layout has been overhauled to accommodate the new "Add Tab" button. The tab bar will now dynamically fill the available space.
+* **Bookmark Panel** directly on the home page for quick access to favorite sites.
+* **Automatic Favicon** for each bookmark for a cleaner and more recognizable appearance.
+* **Aesthetic Hover Effects** inspired by Chrome for smoother interactions.
+* **Dynamic Wallpaper** on the home page, changeable to suit your mood or theme.
 
-Toolbar Optimizations: The old "Add Tab" button has been removed from the main navigation toolbar to eliminate redundancy and clean up the interface.
+---
 
-Mouse Handling Improvements: The logic for detecting mouse movements and clicks has been refined to differentiate between window moves, window resizing, and interactions with control buttons.
+### 🛠 **Improvements & Fixes**
 
-QSS Updates: The stylesheets (QSS) for the light and dark themes have been updated to style the new "Add Tab" button to be consistent with the app's visual theme.
+* Optimized home page rendering to make it lighter even when using high-quality wallpapers.
+* Syncs profile themes with the browser UI for a consistent experience.
+* Minor improvements to tab transitions and menu navigation.
 
-Note: Previous versions (such as v3.3.0) focused on fixing bugs related to maximizing windows and bookmark toolbar functionality.
+---
 
-Added light and dark mode themes
-Changed Total UI to Frameless
-Added AutoUpdate feature to GitHub
-Refactor Total UI
+**Note:**
+Version 3.7.0 is designed to give Shrine Browser Lite a pro, aesthetic, and premium feel, without sacrificing lightness and performance.
+
+---
 
 ## 📸 Screenshots
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/654583e2-0320-48c9-8db9-13bff5f8bfc6" />
 
-| Tabs & Bookmarks | Task Manager RAM Usage |
-|------------------|----------------------------------|
-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/010a8135-690f-47be-adae-238fa2d35f21" />
+
+
+
+
 
 
 ---
