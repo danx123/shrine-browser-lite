@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v4.3.0
+# 🦁 Shrine Browser Lite v4.7.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v4.3.0):
+### 🛠 Differences from the stable version (v4.7.0):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -50,49 +50,36 @@ Shrine Browser Lite/
 ├── shrine_settings/
 │ └── user_prefs.json – Contains user configuration
 ```
-
 ---
 
----
+📜 Changelog - Version 4.7.0 (Security, Bug Fixes, Multi-Language Support, Media Playback)
+🔐 Security
+Credential Hashing Implementation: The credential storage system (username & password) has been completely overhauled for security.
 
----
+Passwords are no longer stored in plaintext.
 
----
+Now using SHA-256 hashing with a unique salt per password and strengthened with PBKDF2. This means the original password cannot be recovered from the stored data, drastically improving security.
 
-## 🆕 Shrine Browser Lite v4.3.0 — *Stable Release*
+Credential Dialog Update: The dialog for adding and editing credentials has been adjusted. When editing, users must enter a new password because the old password cannot be displayed.
 
-### ✨ New Changes
+Important Warning to Users: Due to this storage format change, the old credentials.json file must be manually removed from each profile folder to avoid conflicts.
 
-* **Updated Profile Dialog UI**
-The profile management dialog is now more modern and intuitive, making it easier to set up and select user profiles.
-* **More Informative Homepage**
+🛠️ Bug Fixes (Fixed)
+Cookie Panel: Fixed a critical crash that occurred when users tried to open the "View Active Cookies" panel. This function now runs stably and displays the cookie list as expected.
 
-* Added a real-time weather widget.
-* Automatic display of the date and day according to the system.
-* **Personalized greetings** to add an interactive touch to the user experience.
+Cache Clearing: Fixed an issue with the "Clear Browser Cache" function that often failed due to a system file lock. The cache clearing process is now more reliable, relying solely on the QtWebEngine internal API, without force-deleting the folder.
 
-### 🛠 Fixes
+🔓 Unlock button in the profile dialog to unlock a locked profile
 
-* **CacheCookiePanel**
+🌏 Multilingual Support
 
-* Fixed a bug in the cache and cookie settings panel that caused some options to not work properly.
-* **Login Session — Final Fixes**
-
-* Implemented fully secure cache/storage data transfer logic when the app is closed.
-* Ensured login sessions remain consistent and are not corrupted when switching profiles or exiting the app.
-
-### 📌 Note
-
-This version features a more interactive homepage and significant stability improvements to login sessions, while also updating interface elements for a modern feel.
-
----
-
----
+▶️ Media Playback
 
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/3750aa62-3290-4714-ab3f-7c365ff911b5" />
+<img width="1365" height="767" alt="Screenshot 2025-08-13 211604" src="https://github.com/user-attachments/assets/2712d8cb-9344-48b0-b0e3-88c8b33f5f57" />
+
 
 
 
