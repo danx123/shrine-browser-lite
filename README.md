@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v4.7.0
+# 🦁 Shrine Browser Lite v4.7.3
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v4.7.0):
+### 🛠 Differences from the stable version (v4.7.3):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -51,29 +51,28 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
+### **Shrine Browser Lite Changelog**
 
-📜 Changelog - Version 4.7.0 (Security, Bug Fixes, Multi-Language Support, Media Playback)
-🔐 Security
-Credential Hashing Implementation: The credential storage system (username & password) has been completely overhauled for security.
+#### **[4.7.3] - Unified Fullscreen UI - 2025-08-14**
+This version unifies and refines fullscreen mode behavior across the entire app.
 
-Passwords are no longer stored in plaintext.
+* **Changed:**
+* **Improved F11 Behavior:** Fullscreen mode activated via the **F11** key now also hides all navigation interfaces (tab bar, address bar, etc.), providing the same immersive experience as fullscreen video.
+* **Code Refactoring:** The logic for hiding and showing the UI has been centralized into a single function `_toggle_ui_for_fullscreen` to ensure consistency and cleaner code.
 
-Now using SHA-256 hashing with a unique salt per password and strengthened with PBKDF2. This means the original password cannot be recovered from the stored data, drastically improving security.
+#### **[4.7.2] - Immersive Fullscreen UI - 2025-08-14**
+Focus on improving the visual experience when watching videos.
 
-Credential Dialog Update: The dialog for adding and editing credentials has been adjusted. When editing, users must enter a new password because the old password cannot be displayed.
+* **Changed:**
+* **UI Auto-Hide:** When entering fullscreen mode from a web page (for example, clicking the fullscreen button on YouTube), all browser interfaces (tab bar, address bar, bookmarks bar) are now automatically hidden.
+* **UI Reappear:** The interface will automatically reappear when exiting fullscreen mode.
 
-Important Warning to Users: Due to this storage format change, the old credentials.json file must be manually removed from each profile folder to avoid conflicts.
+#### **[4.7.1] - Web Fullscreen Support - 2025-08-14**
+Added core functionality to support fullscreen requests from the web.
 
-🛠️ Bug Fixes (Fixed)
-Cookie Panel: Fixed a critical crash that occurred when users tried to open the "View Active Cookies" panel. This function now runs stably and displays the cookie list as expected.
-
-Cache Clearing: Fixed an issue with the "Clear Browser Cache" function that often failed due to a system file lock. The cache clearing process is now more reliable, relying solely on the QtWebEngine internal API, without force-deleting the folder.
-
-🔓 Unlock button in the profile dialog to unlock a locked profile
-
-🌏 Multilingual Support
-
-▶️ Media Playback
+* **Added:**
+* **Web Fullscreen API Support:** Added support for fullscreen requests originating from JavaScript in web pages.
+* **Video Fullscreen Button Functionality:** The fullscreen button on video players like YouTube now works and will make the browser window fullscreen.
 
 ---
 
