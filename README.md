@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v4.7.7
+# 🦁 Shrine Browser Lite v4.8.1
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v4.7.7):
+### 🛠 Differences from the stable version (v4.8.1):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -51,31 +51,48 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-# Changelog — Shrine Browser Lite
+📌 Shrine Browser Lite v4.8.1 – Changelog
+✨ New Features
 
-## \[4.7.7] – Download Manager & Save Location Fix — 2025-08-15
+Internationalization (I18n) expanded
+Added new language support:
+🇧🇷 Portuguese (Brazil), 🇨🇳 Chinese, 🇩🇪 German, 🇪🇸 Spanish, 🇫🇷 French, 🇯🇵 Japanese, 🏳️ Javanese, 🏳️ Sundanese, 🇷🇺 Russian, 🇹🇭 Thai.
 
-The focus of this release: a much clearer, more controlled, and more accurate download experience.
+Profile Dialog with a new design (Stack Card)
 
-### Added
+Support for colored avatars and initials.
 
-* **Download Progress Dialog (non-blocking):** a new progress dialog that allows users to continue using the browser while downloading; it displays the file name, a progress bar, and a **Cancel** button. The dialog automatically closes when the download status is not "in progress." Connects to `receivedBytesChanged`, `totalBytesChanged`, and `stateChanged` for real-time progress.
-* **App version updated in About:** version string now shows `4.7.7 (Download Dialog Fixed)`.
+Profile wallpaper for dialog backgrounds.
 
-### Changed
+Quick actions on each card: Launch, Edit, Delete, Unlock.
 
-* **Explicit file save flow:** when a download request is made, it now issues a **Save As** (`QFileDialog.getSaveFileName`) and then sets the directory and filename via `setDownloadDirectory()` and `setDownloadFileName()` before `accept()`. This ensures the file is saved in the exact location the user selected.
-* **Integration with Download Panel & bubble notifications:** every new download is immediately registered in the panel, the final status is mapped to a neat text (“✅ Completed”, “🚫 Canceled”, “⚠️ Failed”) and a short bubble appears at start/finish.
+🔐 Security
 
-### Fixed
+Improved credential system (SHA-256 hash with salt).
 
-* **Fixed Location for downloads:** fixed a save location bug—the path now always follows the user's choice from the dialog, instead of an unwanted fallback.
-* **Clean up signal connections:** performs a safe disconnect when the download is complete to prevent leaking/duplicating callbacks; the progress dialog also clears its signals when closed.
+Profile unlock option via card dialog.
+
+🎨 UI/UX
+
+Interactive profile card design with hover and rounded borders.
+
+Light and dark themes now support the new card style.
+
+Language selection dropdown directly within the Profile Dialog.
+
+🛠️ Improvements
+
+Fixed a bug with default language loading (fallback to English).
+
+Improved stability of profile management and settings storage.
 
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Screenshot 2025-08-13 211604" src="https://github.com/user-attachments/assets/2712d8cb-9344-48b0-b0e3-88c8b33f5f57" />
+<img width="1018" height="706" alt="Screenshot 2025-08-16 203551" src="https://github.com/user-attachments/assets/07631f9a-ab9d-4c96-8029-58177d70745d" />
+<img width="1365" height="767" alt="Screenshot 2025-08-16 203610" src="https://github.com/user-attachments/assets/8edcf9a2-a526-47fc-9c63-179b7844491e" />
+
+
 
 
 
