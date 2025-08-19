@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v4.9.0
+# 🦁 Shrine Browser Lite v4.9.2
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v4.9.0):
+### 🛠 Differences from the stable version (v4.9.2):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -51,27 +51,29 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-# **Shrine Browser Lite Changelog**
+### **Shrine Browser Lite Changelog**
 
-### **\[4.9.0] – Profile & Guest Mode Enhancements – 2025-08-18**
+#### **\[4.9.2] - Profile Security & New Themes — 2025-08-19**
 
 **Added:**
 
-* **Guest Mode:** Users can log in without saving cache or storage. Suitable for one-time use or light private mode.
-* **Checkbox “Show on startup”:**
+* **Password Protection per Profile (Optional)**
 
-* Enabled by default.
-* If unchecked, the browser immediately enters default mode without displaying the profile selection dialog.
-* **New Menu – Switch to Profile:**
+* Each profile can now be password protected.
+* Passwords are not stored in plain text or `.json` files, but are protected using **SHA-256** to ensure security.
+* When unlocking a locked profile, the user is required to enter the corresponding password.
 
-* Added under the “Duplicate This Tab” menu.
-* Allows users to switch to the **Profile Dialog** at any time without having to restart the browser.
+* **New Themes**
 
-**Changed:**
+* **Neon Blue** — A modern, glowing blue theme with futuristic accents.
+* **Dark Blue** — A dark look with elegant blue tones for easy viewing.
+* **Soft Pink** — A soft theme with a calming, aesthetic pink tone.
 
-* **Text on profile page** updated to be clearer and more user-friendly:
+**Improved:**
 
-> *“Who uses Shrine Browser Lite? With Shrine Browser Lite profiles, you can keep your Shrine data separate. Create profiles for friends and family, or separate work and play activities.”*
+* Improved security in the profile data storage system.
+* Minor improvements to UI rendering performance when switching themes.
+
 ---
 
 ## 📸 Screenshots
