@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v4.8.1
+# 🦁 Shrine Browser Lite v4.9.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v4.8.1):
+### 🛠 Differences from the stable version (v4.9.0):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -51,58 +51,33 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📌 Shrine Browser Lite v4.8.1 – Changelog
-✨ New Features
+# **Shrine Browser Lite Changelog**
 
-Internationalization (I18n) expanded
-Added new language support:
-🇧🇷 Portuguese (Brazil), 🇨🇳 Chinese, 🇩🇪 German, 🇪🇸 Spanish, 🇫🇷 French, 🇯🇵 Japanese, 🏳️ Javanese, 🏳️ Sundanese, 🇷🇺 Russian, 🇹🇭 Thai.
+### **\[4.9.0] – Profile & Guest Mode Enhancements – 2025-08-18**
 
-Profile Dialog with a new design (Stack Card)
+**Added:**
 
-Support for colored avatars and initials.
+* **Guest Mode:** Users can log in without saving cache or storage. Suitable for one-time use or light private mode.
+* **Checkbox “Show on startup”:**
 
-Profile wallpaper for dialog backgrounds.
+* Enabled by default.
+* If unchecked, the browser immediately enters default mode without displaying the profile selection dialog.
+* **New Menu – Switch to Profile:**
 
-Quick actions on each card: Launch, Edit, Delete, Unlock.
+* Added under the “Duplicate This Tab” menu.
+* Allows users to switch to the **Profile Dialog** at any time without having to restart the browser.
 
-🔐 Security
+**Changed:**
 
-Improved credential system (SHA-256 hash with salt).
+* **Text on profile page** updated to be clearer and more user-friendly:
 
-Profile unlock option via card dialog.
-
-🎨 UI/UX
-
-Interactive profile card design with hover and rounded borders.
-
-Light and dark themes now support the new card style.
-
-Language selection dropdown directly within the Profile Dialog.
-
-🛠️ Improvements
-
-Fixed a bug with default language loading (fallback to English).
-
-Improved stability of profile management and settings storage.
-
+> *“Who uses Shrine Browser Lite? With Shrine Browser Lite profiles, you can keep your Shrine data separate. Create profiles for friends and family, or separate work and play activities.”*
 ---
 
 ## 📸 Screenshots
-<img width="1018" height="706" alt="Screenshot 2025-08-16 203551" src="https://github.com/user-attachments/assets/07631f9a-ab9d-4c96-8029-58177d70745d" />
+<img width="1021" height="703" alt="Screenshot 2025-08-19 172212" src="https://github.com/user-attachments/assets/8745a3b9-3d37-418f-b8ce-f553e4c6fd63" />
+
 <img width="1365" height="767" alt="Screenshot 2025-08-16 203610" src="https://github.com/user-attachments/assets/8edcf9a2-a526-47fc-9c63-179b7844491e" />
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ---
