@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v4.9.2
+# 🦁 Shrine Browser Lite v4.9.7
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v4.9.2):
+### 🛠 Differences from the stable version (v4.9.7):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -51,35 +51,26 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-### **Shrine Browser Lite Changelog**
-
-#### **\[4.9.2] - Profile Security & New Themes — 2025-08-19**
-
-**Added:**
-
-* **Password Protection per Profile (Optional)**
-
-* Each profile can now be password protected.
-* Passwords are not stored in plain text or `.json` files, but are protected using **SHA-256** to ensure security.
-* When unlocking a locked profile, the user is required to enter the corresponding password.
-
-* **New Themes**
-
-* **Neon Blue** — A modern, glowing blue theme with futuristic accents.
-* **Dark Blue** — A dark look with elegant blue tones for easy viewing.
-* **Soft Pink** — A soft theme with a calming, aesthetic pink tone.
-
-**Improved:**
-
-* Improved security in the profile data storage system.
-* Minor improvements to UI rendering performance when switching themes.
+📜 Shrine Browser Lite v4.9.7 Changelog
+PDF Transmutation & Video Stream
+📝 New Features
+📑 Native PDF Support
+You can directly drag and drop PDF files from Explorer into the browser.
+PDFs open instantly in a new tab thanks to PyMuPDF integration.
+Added Save As PDF functionality → easily save web pages to PDF.
+🎬 FFplay Integration
+Now the browser has the power of a video altar.
+Simply drag and drop video files into the browser, and ffplay will automatically handle them and play them.
+⚡ Aura Shrine
+“Not just an internet portal, but now Shrine Browser Lite is a multimedia altar — PDF, Web, and Video are united in one soul.”
 
 ---
 
 ## 📸 Screenshots
 <img width="1021" height="703" alt="Screenshot 2025-08-19 172212" src="https://github.com/user-attachments/assets/8745a3b9-3d37-418f-b8ce-f553e4c6fd63" />
 
-<img width="1365" height="767" alt="Screenshot 2025-08-16 203610" src="https://github.com/user-attachments/assets/8edcf9a2-a526-47fc-9c63-179b7844491e" />
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/ba3bb22e-0e13-47da-9ee1-21895c6b0420" />
+
 
 
 ---
