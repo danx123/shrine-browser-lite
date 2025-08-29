@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v4.9.7
+# 🦁 Shrine Browser Lite v4.9.8
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v4.9.7):
+### 🛠 Differences from the stable version (v4.9.8):
 
 - History still uses the `.txt` format
 - The credential system is still dummy (not saved)
@@ -51,18 +51,10 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v4.9.7 Changelog
-PDF Transmutation & Video Stream
-📝 New Features
-📑 Native PDF Support
-You can directly drag and drop PDF files from Explorer into the browser.
-PDFs open instantly in a new tab thanks to PyMuPDF integration.
-Added Save As PDF functionality → easily save web pages to PDF.
-🎬 FFplay Integration
-Now the browser has the power of a video altar.
-Simply drag and drop video files into the browser, and ffplay will automatically handle them and play them.
-⚡ Aura Shrine
-“Not just an internet portal, but now Shrine Browser Lite is a multimedia altar — PDF, Web, and Video are united in one soul.”
+📜 Shrine Browser Lite v4.9.8 Changelog
+- Fix Switch profile mode
+- Fix tab moved 
+
 
 ---
 
