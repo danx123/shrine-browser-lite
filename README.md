@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v4.9.8
+# 🦁 Shrine Browser Lite v5.0.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,13 +8,9 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v4.9.8):
+### 🛠 Differences from the stable version (v5.0.0):
 
-- History still uses the `.txt` format
-- The credential system is still dummy (not saved)
-- Bookmarks do not use a database (SQLite)
-- The extension management panel is not yet available
-- Navigation and download functions **are now working properly**
+- Fix Tab
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
