@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v5.3.0
+# 🦁 Shrine Browser Lite v5.5.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v5.3.0):
+### 🛠 Differences from the stable version (v5.5.0):
 
 - Update Engine
 - Rebuild with Nuitka for better performance
@@ -50,17 +50,16 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v4.9.8 Changelog
-- Fix Switch profile mode
-- Fix tab moved 
+📜 Shrine Browser Lite v5.5.0 Changelog
+- Add Side Panel, calculator, memo, calendar
+- Add Menu (All Settings Menu)
 
 
 ---
 
 ## 📸 Screenshots
-<img width="1021" height="703" alt="Screenshot 2025-08-19 172212" src="https://github.com/user-attachments/assets/8745a3b9-3d37-418f-b8ce-f553e4c6fd63" />
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/c71a02f9-4f6f-4f2c-afb0-4e8ee75a271c" />
 
-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/ba3bb22e-0e13-47da-9ee1-21895c6b0420" />
 
 
 
