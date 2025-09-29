@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v5.5.5
+# 🦁 Shrine Browser Lite v5.7.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v5.5.5):
+### 🛠 Differences from the stable version (v5.7.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -45,45 +45,17 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v5.5.5 Changelog
-This is a significant update focused on improving the user experience (UX), adding advanced custom features, and improving stability based on feedback.
-
-✨ New Features
-Interactive Profile Menu:
-The profile icon in the top left corner now functions as a menu button.
-Displays a list of all currently open tabs, allowing quick, one-click navigation.
-Displays a list of the five most recently closed tabs, making it easy to reopen accidentally closed pages.
-Tab Preview Tooltip:
-Hovering your mouse over a tab will display a custom tooltip.
-The tooltip displays a thumbnail of the webpage content in that tab.
-Includes information about estimated memory usage by the renderer process, providing insight into which tabs are consuming the most resources. (Requires the psutil library).
-Force Dark Mode for Web Content:
-Adds a new option in the Appearance > Theme menu to force a dark appearance on website content.
-This feature intelligently injects CSS to change webpage colors to a dark theme, even on sites that don't have a built-in dark mode.
-It can be enabled/disabled as desired and will take effect on new tabs or after reloading existing tabs.
-Per-Site Zoom Persistence:
-The browser now automatically remembers the zoom level you set for each domain.
-When you revisit the site, the saved zoom level will be reapplied automatically, eliminating the need to reset the zoom every time.
-🎨 Enhancements & Changes
-Chrome-Style Custom Link Tooltip:
-Replaces the default link tooltip with a custom status bar that appears in the bottom-left corner of the browser window.
-Provides a cleaner, more modern look and is consistent with major browsers like Google Chrome.
-The status bar will automatically disappear after a few seconds or when the cursor is no longer hovering over the link.
-🛠️ Bug Fixes
-Tab Preview Stability Fix:
-Fixed a TypeError that occurred when attempting to create a tab preview thumbnail.
-This issue was caused by a mismatch between the standard Python BytesIO object and the QIODevice expected by Qt/PySide6.
-Solution: Implemented the use of Qt's QBuffer and QByteArray to process images in memory, ensuring full compatibility and stability.
-Fixed Dark Mode Content Effectiveness:
-Fixed an issue where the "Force Dark Mode" feature was not working on some websites.
-This issue was caused by inappropriate timing and execution environment of the injected script.
-Solution: Changed the injection point to DocumentReady and the world ID to MainWorld to ensure CSS scripts have the proper priority and access to effectively modify the web page's appearance.
+📜 Shrine Browser Lite v5.7.0 Changelog
+- Fix AutoPlay Video when open in new tab
+- Custom Wallpaper (homepage)
+- Blank url bar (homepage)
 
 
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/c71a02f9-4f6f-4f2c-afb0-4e8ee75a271c" />
+<img width="1365" height="767" alt="Screenshot 2025-09-29 211801" src="https://github.com/user-attachments/assets/b90d45fc-c6a2-48d0-bb08-f97f49079b99" />
+
 
 
 
