@@ -45,8 +45,8 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v5.7.1 Changelog
-- Update Framework
+📜 Shrine Browser Lite v5.8.0 Changelog
+- Added Dynamic Aura
 
 
 ---
