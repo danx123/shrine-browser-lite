@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v6.0.0
+# 🦁 Shrine Browser Lite v6.2.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v6.0.0):
+### 🛠 Differences from the stable version (v6.2.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -45,9 +45,9 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v6.0.0 Changelog
-- Added Status bar (zoom slider, fullscreen, reset zoom, hover tooltip)
-- Added New Wallpaper
+📜 Shrine Browser Lite v6.2.0 Changelog
+- Added Inspect Element
+
 
 Chromium Version: 134.0.6998.208
 Chromium Security Patch Version: 140.0.7339.207
