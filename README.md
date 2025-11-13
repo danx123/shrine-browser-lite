@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v7.8.0
+# 🦁 Shrine Browser Lite v8.5.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -45,8 +45,13 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v7.8.0 Changelog
-- Improve Icon Pack & Theme
+📜 Shrine Browser Lite v8.5.0 Changelog
+- 🔧 Improvements & Optimizations
+  - Background Tab Loading: New tabs opened from web links (i.e., target="_blank") now load in the background instead of stealing focus from the active tab.
+  - Improved Memory Management: Enhanced the tab closing process (close_tab) to explicitly delete the QWebEnginePage and disconnect it from the view, improving memory release when tabs are closed.
+  - Tab Preview Positioning: The tab thumbnail preview is now correctly centered relative to the user's cursor position.
+- 🐛 Bug Fixes
+  - Fixed a persistent visual glitch where a 1-pixel green border would appear on the screen. This was traced to the link hover tooltip (status_tip_label) incorrectly inheriting the "bubbleLabel" style ID, which has now been corrected.
 
 
 Chromium Version: 134.0.6998.208
