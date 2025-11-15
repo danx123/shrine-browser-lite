@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v9.0.0
+# 🦁 Shrine Browser Lite v9.2.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v9.0.0):
+### 🛠 Differences from the stable version (v9.2.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -45,11 +45,8 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v9.0.0 Changelog
-- Fixed consistent tab sizes
-- Fixed consistent tooltip bubble sizes
-- Added a new feature: Focus on the currently viewed tab. When you click "Open in new tab," the tab remains in focus, and the new tab runs in the background.
-- Added Default Icon Pack
+📜 Shrine Browser Lite v9.2.0 Changelog
+- Added Network Monitoring (status bar)
 
 
 Chromium Version: 134.0.6998.208
@@ -60,13 +57,7 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="719" alt="Screenshot 2025-10-30 171734" src="https://github.com/user-attachments/assets/cd744040-afc7-4fd2-a143-d2b7055bae16" />
-<img width="1365" height="720" alt="Screenshot 2025-10-30 172141" src="https://github.com/user-attachments/assets/0fad9090-1691-4e8d-8f64-ad94619940be" />
-<img width="1365" height="719" alt="Screenshot 2025-10-30 172322" src="https://github.com/user-attachments/assets/e8a9f4e5-8b41-4bbd-8aa7-bd5ab0bebe73" />
-
-
-
-
+<img width="1365" height="721" alt="Screenshot 2025-11-16 015034" src="https://github.com/user-attachments/assets/42e91867-ba00-4351-a512-418700df5a41" />
 
 ---
 
