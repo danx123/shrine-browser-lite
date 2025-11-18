@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v9.2.0
+# 🦁 Shrine Browser Lite v9.8.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v9.2.0):
+### 🛠 Differences from the stable version (v9.8.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -46,7 +46,10 @@ Shrine Browser Lite/
 ```
 ---
 📜 Shrine Browser Lite v9.2.0 Changelog
-- Added Network Monitoring (status bar)
+- Redesign UI (Settings)
+- Added Realtime Clock (Home Page)
+- Added CPU Usage Realtime (Status Bar)
+- Added Ram Usage Realtime (Status Bar)
 
 
 Chromium Version: 134.0.6998.208
@@ -57,7 +60,10 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="721" alt="Screenshot 2025-11-16 015034" src="https://github.com/user-attachments/assets/42e91867-ba00-4351-a512-418700df5a41" />
+<img width="1365" height="720" alt="Screenshot 2025-11-18 155817" src="https://github.com/user-attachments/assets/2ce1136d-8cda-4297-ab4e-f812a74584fc" />
+<img width="1365" height="718" alt="Screenshot 2025-11-18 155852" src="https://github.com/user-attachments/assets/aeabd826-08f7-4e96-953a-81b00fe4d973" />
+
+
 
 ---
 
