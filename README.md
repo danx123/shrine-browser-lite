@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v9.8.0
+# 🦁 Shrine Browser Lite v10.5.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v9.8.0):
+### 🛠 Differences from the stable version (v10.5.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -45,11 +45,19 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v9.2.0 Changelog
-- Redesign UI (Settings)
-- Added Realtime Clock (Home Page)
-- Added CPU Usage Realtime (Status Bar)
-- Added Ram Usage Realtime (Status Bar)
+📜 Shrine Browser Lite v10.5.0 Changelog
+* Added Side Panel:
+1. Facebook Messenger 
+2. Telegram 
+3. Gemini 
+4. ChatGPT 
+5. Google Drive 
+6. Terabox 
+7. Calculator
+8. Memo
+9. Calendar
+
+* Added Custom Avatar (Profile)
 
 
 Chromium Version: 134.0.6998.208
@@ -60,9 +68,8 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="720" alt="Screenshot 2025-11-18 155817" src="https://github.com/user-attachments/assets/2ce1136d-8cda-4297-ab4e-f812a74584fc" />
-<img width="1365" height="718" alt="Screenshot 2025-11-18 155852" src="https://github.com/user-attachments/assets/aeabd826-08f7-4e96-953a-81b00fe4d973" />
-
+<img width="1365" height="720" alt="Screenshot 2025-11-20 131840" src="https://github.com/user-attachments/assets/47d0ee9d-99da-417c-a9c3-0e28f3bc6442" />
+<img width="1365" height="719" alt="Screenshot 2025-11-20 131859" src="https://github.com/user-attachments/assets/45b22a5f-1241-499f-80dc-377ccae0647f" />
 
 
 ---
