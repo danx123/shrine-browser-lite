@@ -1,5 +1,4 @@
-# 🦁 Shrine Browser Lite v10.7.0
-
+# 🦁 Shrine Browser Lite v11.0.0
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -8,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v10.7.0):
+### 🛠 Differences from the stable version (v11.0.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -45,11 +44,8 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v10.7.0 Changelog
-- Added Whatsapp (side bar)
-- Added Clear Cache, to clear cache side bar
-- Custom User Agent : 
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+📜 Shrine Browser Lite v11.0.0 Changelog
+- Added Custom User Agent Switcher
 
 
 Chromium Version: 134.0.6998.208
