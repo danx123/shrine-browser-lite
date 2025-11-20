@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v10.5.0
+# 🦁 Shrine Browser Lite v10.7.0
 
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
@@ -8,7 +8,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v10.5.0):
+### 🛠 Differences from the stable version (v10.7.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -45,19 +45,11 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v10.5.0 Changelog
-* Added Side Panel:
-1. Facebook Messenger 
-2. Telegram 
-3. Gemini 
-4. ChatGPT 
-5. Google Drive 
-6. Terabox 
-7. Calculator
-8. Memo
-9. Calendar
-
-* Added Custom Avatar (Profile)
+📜 Shrine Browser Lite v10.7.0 Changelog
+- Added Whatsapp (side bar)
+- Added Clear Cache, to clear cache side bar
+- Custom User Agent : 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
 
 
 Chromium Version: 134.0.6998.208
@@ -68,8 +60,10 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="720" alt="Screenshot 2025-11-20 131840" src="https://github.com/user-attachments/assets/47d0ee9d-99da-417c-a9c3-0e28f3bc6442" />
-<img width="1365" height="719" alt="Screenshot 2025-11-20 131859" src="https://github.com/user-attachments/assets/45b22a5f-1241-499f-80dc-377ccae0647f" />
+<img width="1364" height="720" alt="Screenshot 2025-11-20 201357" src="https://github.com/user-attachments/assets/cec4f232-11b5-4acb-a144-702a1b96b394" />
+<img width="1365" height="718" alt="Screenshot 2025-11-20 201330" src="https://github.com/user-attachments/assets/b56f60d5-0326-4a47-8ace-8a82069c3cec" />
+
+
 
 
 ---
