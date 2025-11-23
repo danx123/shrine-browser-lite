@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v11.2.2
+# 🦁 Shrine Browser Lite v11.4.0
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v11.2.2):
+### 🛠 Differences from the stable version (v11.4.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -45,7 +45,10 @@ Shrine Browser Lite/
 ```
 ---
 📜 Shrine Browser Lite v11.2.2 Changelog
-- Fixed sidebar theme
+- Improve Performace
+- Fixed Memory Leak
+- Added Lazy Load for side bar 
+- Fixed Double User Agent (side bar)
 
 QtWebEngine Version: 6.10.1
 
@@ -57,11 +60,7 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1364" height="720" alt="Screenshot 2025-11-20 201357" src="https://github.com/user-attachments/assets/cec4f232-11b5-4acb-a144-702a1b96b394" />
-<img width="1365" height="718" alt="Screenshot 2025-11-20 201330" src="https://github.com/user-attachments/assets/b56f60d5-0326-4a47-8ace-8a82069c3cec" />
-
-
-
+<img width="1365" height="722" alt="Screenshot 2025-11-23 142803" src="https://github.com/user-attachments/assets/0ce78c1b-7451-45a7-b458-3c838179f6e9" />
 
 ---
 
