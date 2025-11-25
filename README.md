@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v11.4.0):
+### 🛠 Differences from the stable version (v11.4.5):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,11 +44,14 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v11.2.2 Changelog
-- Improve Performace
-- Fixed Memory Leak
-- Added Lazy Load for side bar 
-- Fixed Double User Agent (side bar)
+📜 Shrine Browser Lite v11.4.5
+New Features
+Native HTML Interfaces: Migrated History, About, and Downloads menus from legacy dialogs to fully responsive HTML pages for a modern, native browser experience.
+Download Persistence: Implemented a persistent download history system. Download logs are now saved to downloads.json located specifically within the user's profile directory, ensuring data isolation between profiles.
+Enhanced File Management: Added functionality to the Downloads page allowing users to open files directly or reveal them in the system file explorer (Show in Folder).
+Improvements
+URL Masking: Implemented smart address bar masking for internal pages. Internal file paths (e.g., file:///.../history.html) are now displayed cleanly as "History", "About", or "Downloads".
+Internal Navigation: Refactored the main menu to open internal pages in new tabs via the open_internal_page helper method.
 
 QtWebEngine Version: 6.10.1
 
@@ -60,7 +63,12 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="722" alt="Screenshot 2025-11-23 142803" src="https://github.com/user-attachments/assets/0ce78c1b-7451-45a7-b458-3c838179f6e9" />
+<img width="1365" height="721" alt="Screenshot 2025-11-25 082223" src="https://github.com/user-attachments/assets/a6142af3-f73e-4d80-a365-db6d3236aca9" />
+<img width="1365" height="721" alt="Screenshot 2025-11-25 082322" src="https://github.com/user-attachments/assets/af05a417-298c-402c-8903-f2ad92f6fac9" />
+<img width="1365" height="717" alt="Screenshot 2025-11-25 082250" src="https://github.com/user-attachments/assets/30f4edce-b476-429b-b175-b6699831a201" />
+
+
+
 
 ---
 
