@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v11.4.5
+# 🦁 Shrine Browser Lite v11.5.0
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v11.4.5):
+### 🛠 Differences from the stable version (v11.5.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,14 +44,21 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v11.4.5
-New Features
-Native HTML Interfaces: Migrated History, About, and Downloads menus from legacy dialogs to fully responsive HTML pages for a modern, native browser experience.
-Download Persistence: Implemented a persistent download history system. Download logs are now saved to downloads.json located specifically within the user's profile directory, ensuring data isolation between profiles.
-Enhanced File Management: Added functionality to the Downloads page allowing users to open files directly or reveal them in the system file explorer (Show in Folder).
-Improvements
-URL Masking: Implemented smart address bar masking for internal pages. Internal file paths (e.g., file:///.../history.html) are now displayed cleanly as "History", "About", or "Downloads".
-Internal Navigation: Refactored the main menu to open internal pages in new tabs via the open_internal_page helper method.
+📜 Shrine Browser Lite v11.5.0
+This update focuses on a major modernization of the browser's internal interface by migrating all settings and management panels from native Python widgets to a modern HTML/CSS/JavaScript UI, significantly improving consistency and user experience (UX).
+✨ New & Improved
+Modernized Settings UI/UX: All core internal pages have been migrated to dedicated HTML interfaces, ensuring a consistent look and feel across all themes. This includes:
+Bookmarks (bookmarks.html)
+History (history.html)
+Cache & Cookies (cache_cookie.html)
+Privacy & Security (privacy_security.html)
+Homepage Settings (homepage.html)
+Extensions Management (extensions.html)
+Real-time Cache Information: The Cache Management page now dynamically displays the current cache size (e.g., "120.50 MB") by calculating the directory size via the Python backend.
+⚙️ Refactoring & Backend
+Decoupled Settings Logic: All logic previously handled by QWidget dialogs (like ExtensionsPanel or CacheCookiePanel) has been successfully migrated to the ShrineBridge QWebChannel interface.
+Enhanced Code Modularization: This migration dramatically reduces reliance on Python GUI components for settings, leading to cleaner, more maintainable code.
+Friendly Navigation Titles: The address bar now displays user-friendly names (e.g., "Extensions" or "Homepage Settings") instead of the internal file paths when navigating the settings UI.
 
 QtWebEngine Version: 6.10.1
 
@@ -65,7 +72,7 @@ JavaScript V8: 13.4.114.21
 ## 📸 Screenshots
 <img width="1365" height="721" alt="Screenshot 2025-11-25 082223" src="https://github.com/user-attachments/assets/a6142af3-f73e-4d80-a365-db6d3236aca9" />
 <img width="1365" height="721" alt="Screenshot 2025-11-25 082322" src="https://github.com/user-attachments/assets/af05a417-298c-402c-8903-f2ad92f6fac9" />
-<img width="1365" height="717" alt="Screenshot 2025-11-25 082250" src="https://github.com/user-attachments/assets/30f4edce-b476-429b-b175-b6699831a201" />
+
 
 
 
