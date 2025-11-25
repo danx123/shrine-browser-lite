@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v11.4.0
+# 🦁 Shrine Browser Lite v11.4.5
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
