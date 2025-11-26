@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v11.5.0
+# 🦁 Shrine Browser Lite v11.5.6
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v11.5.0):
+### 🛠 Differences from the stable version (v11.5.6):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,21 +44,14 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v11.5.0
-This update focuses on a major modernization of the browser's internal interface by migrating all settings and management panels from native Python widgets to a modern HTML/CSS/JavaScript UI, significantly improving consistency and user experience (UX).
-✨ New & Improved
-Modernized Settings UI/UX: All core internal pages have been migrated to dedicated HTML interfaces, ensuring a consistent look and feel across all themes. This includes:
-Bookmarks (bookmarks.html)
-History (history.html)
-Cache & Cookies (cache_cookie.html)
-Privacy & Security (privacy_security.html)
-Homepage Settings (homepage.html)
-Extensions Management (extensions.html)
-Real-time Cache Information: The Cache Management page now dynamically displays the current cache size (e.g., "120.50 MB") by calculating the directory size via the Python backend.
-⚙️ Refactoring & Backend
-Decoupled Settings Logic: All logic previously handled by QWidget dialogs (like ExtensionsPanel or CacheCookiePanel) has been successfully migrated to the ShrineBridge QWebChannel interface.
-Enhanced Code Modularization: This migration dramatically reduces reliance on Python GUI components for settings, leading to cleaner, more maintainable code.
-Friendly Navigation Titles: The address bar now displays user-friendly names (e.g., "Extensions" or "Homepage Settings") instead of the internal file paths when navigating the settings UI.
+📜 Shrine Browser Lite v11.5.6
+- Replace UrlBar class: Fixed link highlighting.
+- Imports update: Added QKeySequence, QShortcut.
+- ShrineWebTab._init_ui update: Added Ctrl+T and Ctrl+N shortcuts.
+- Add _shortcut_new_window_action: Helper for Ctrl+N.
+- KeyPressEvent update: Added ESC logic.
+- Switch_profile update: Removed window.close() loop to allow restart to work properly.
+
 
 QtWebEngine Version: 6.10.1
 
