@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v11.8.3
+# 🦁 Shrine Browser Lite v11.8.5
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v11.8.3):
+### 🛠 Differences from the stable version (v11.8.5):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,7 +44,7 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v11.8.3
+📜 Shrine Browser Lite v11.8.5
 - Added a new module at /core/chrome_extensions
 for native Chrome extension support
 - Code Refactoring (js-bridge)
@@ -52,6 +52,9 @@ for native Chrome extension support
 * about
 * extensions
 * settings
+- Integrated with:
+* Macan Video Downloader
+* Macan Download Manager
 
 
 QtWebEngine Version: 6.10.1
@@ -64,7 +67,8 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="718" alt="Screenshot 2025-12-02 204003" src="https://github.com/user-attachments/assets/4653e8ea-7f3f-4031-9804-f6834ae5465c" />
+<img width="1365" height="721" alt="Screenshot 2025-12-03 085413" src="https://github.com/user-attachments/assets/7d585b70-b73b-46b7-b80b-2cb30c5f5bed" />
+
 
 
 
