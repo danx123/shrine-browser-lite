@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v12.1.0
+# 🦁 Shrine Browser Lite v12.1.1
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v12.1.0):
+### 🛠 Differences from the stable version (v12.1.1):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,7 +44,7 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v12.1.0
+📜 Shrine Browser Lite v12.1.1
 - Sidebar can be resized
 - Added Qsettings to save sidebar size
 - Added cache information to sidebar
@@ -53,6 +53,7 @@ Shrine Browser Lite/
   * chache_cookie
 - Added Previous/Next & Case Sensitive (macan_find)
 - Added menu search by image
+- Added Cache Statistic (Chace/Cookie panel)
 - Optimized Code
 
 
