@@ -62,8 +62,10 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="720" alt="Screenshot 2025-12-04 103453" src="https://github.com/user-attachments/assets/b183c5d9-effd-46b9-8703-b87e512df07e" />
-<img width="1365" height="719" alt="Screenshot 2025-12-04 103552" src="https://github.com/user-attachments/assets/be3983c0-dcaf-4a18-9e74-dc5068cc1246" />
+<img width="1365" height="716" alt="Screenshot 2025-12-05 143254" src="https://github.com/user-attachments/assets/9fe0edab-7f5e-4089-970d-bb70577dc93c" />
+<img width="1365" height="721" alt="Screenshot 2025-12-05 143337" src="https://github.com/user-attachments/assets/6169a0a0-a8b5-469f-a335-f818475f2cc3" />
+
+
 
 
 
