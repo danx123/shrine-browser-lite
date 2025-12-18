@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v12.6.7
+# 🦁 Shrine Browser Lite v12.7.0
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v12.6.7):
+### 🛠 Differences from the stable version (v12.7.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,22 +44,10 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v12.6.7
-- Added URL Bar Stylesheet:
-  * Hover, Edit, Focus (with highlight) like VS Code
-- Added download logic to the sidebar, to download content
-- Added function to save zoom (homepage)
-- Added Icon process (task_manager)
-- Added Incognito Mode
-- Added Context Menu: Open Image in New Tab
-- Added Logic zoom in/out when Image Open in New Tab
-- Added Digital Clock (statur bar)
-- Fixed Favicon BrowserContainer
-- Fixed stylesheet Tooltip Color using default system
-- Fixed Guest Mode
-- Incognito & Guest Mode have pulse effect
-- Update UserAgent sidebar
-- Changed Search by Image using Yandex
+📜 Shrine Browser Lite v12.7.0
+- Added history to urlbar
+- Added auto suggestion to urlbar
+- Update Search by Image using Bing & Yandex
 
 QtWebEngine Version: 6.10.1
 
