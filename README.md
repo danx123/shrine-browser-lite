@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v12.7.4
+# 🦁 Shrine Browser Lite v12.7.6
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v12.7.4):
+### 🛠 Differences from the stable version (v12.7.6):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,12 +44,10 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v12.7.4
-Improvement UX auto suggestion:
-- URL bar
-- Homepage
-- Guest Mode
-- Incognito Mode
+📜 Shrine Browser Lite v12.7.6
+- Added New HomePage
+  adapted from Macan Browser
+- Improvement Thumbnail Tab with showing inactive tab
 
 QtWebEngine Version: 6.10.1
 
@@ -61,7 +59,7 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Screenshot 2025-12-08 210041" src="https://github.com/user-attachments/assets/9c7ea039-4c5c-4dea-9cb0-fccf7f1a024d" />
+<img width="1365" height="767" alt="Screenshot 2025-12-22 192532" src="https://github.com/user-attachments/assets/351c1d8b-d9f5-4f9c-8303-e37143e9ec71" />
 <img width="1365" height="767" alt="Screenshot 2025-12-08 205424" src="https://github.com/user-attachments/assets/93d218b6-3510-4088-a527-0374b87b4487" />
 <img width="1365" height="767" alt="Screenshot 2025-12-08 205901" src="https://github.com/user-attachments/assets/490175e7-9472-4efb-a95a-7b7c63781502" />
 
