@@ -84,7 +84,8 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Screenshot 2025-12-29 163136" src="https://github.com/user-attachments/assets/d2026e3f-5466-4419-ab26-3186e0b3d8d0" />
+<img width="1365" height="767" alt="Cuplikan layar 2025-12-31 210356" src="https://github.com/user-attachments/assets/fbc6684e-ae54-4bce-9f48-5e5fd3ad20ef" />
+
 
 
 ---
