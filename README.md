@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v12.9.0
+# 🦁 Shrine Browser Lite v13.2.1
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v12.8.5):
+### 🛠 Differences from the stable version (v13.2.1):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,11 +44,35 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v12.9.0
-- Change URL bar with rounded style
-- Optimized handle download using MIME type detection
-- Optimized sidepanel
-- Fixed consistency zoom when add new tab
+📜 Shrine Browser Lite v13.2.1
+1. Shrine Browser Lite v13.2.1 — Changelog
+
+New
+
+- Native integration of Microsoft Copilot as an isolated AI module
+- Unified AI side panel alongside GPT and Gemini for streamlined access
+- Dedicated AI profiles with full sandbox isolation (cache, cookies, session)
+
+Security & Privacy
+
+- Disabled View Source and Inspect Element on AI modules
+- Blocked popup, external window, and tab spawning for integrated AI services
+- Enforced strict profile separation to prevent data leakage
+
+Performance
+
+- Optimized Chromium flags for faster rendering and lower memory usage
+- Improved side panel responsiveness and startup behavior
+
+Stability
+- Enhanced internal module wrapper for long-running AI sessions
+- General stability improvements and internal refactoring
+
+UI
+
+- Update AdBlocker (domain list)
+- Update AdBlocker UI Switcher
+- Change tab close button using SVG
 
 QtWebEngine Version: 6.10.1
 
