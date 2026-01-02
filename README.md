@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v13.2.6
+# 🦁 Shrine Browser Lite v13.2.7
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v13.2.6):
+### 🛠 Differences from the stable version (v13.2.7):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,38 +44,25 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v13.2.6
-✨ New Feature: Performance Mode Control
+📜 Shrine Browser Lite v13.2.7
+New Feature: Integrated Process Monitor
 
-Shrine Browser Lite v13.2.6 introduces a new Performance Mode control, designed to provide users with greater flexibility in balancing performance efficiency and visual quality.
+Shrine Browser Lite v13.2.7 introduces a built-in Process Monitor designed to provide transparent visibility into internal browser activities in real time.
 
-🔧 Performance Modes
+Key Highlights:
 
-Normal Mode
-Utilizes default Chromium rendering and performance flags to ensure standard visual fidelity and system behavior.
+Real-time, read-only logging of system and user-triggered actions
 
-Extreme Mode (Default)
-Applies optimized Chromium configurations focused on:
+Clear event tracking for navigation, feature switching, and internal processes
 
-- Reduced memory consumption
-- Lower CPU utilization
-- Decreased data usage
-- Faster rendering performance
+Non-intrusive side panel layout for continuous monitoring
 
+No background data modification — logs are strictly informational
 
-This mode intentionally reduces certain visual rendering qualities as a controlled and documented trade-off to achieve higher performance efficiency.
+Lightweight implementation with no impact on performance or stability
 
 
-⚙️ Implementation Details
-
-Performance Mode is applied globally, not per profile.
-Changes take effect after browser restart to ensure system stability.
-Live switching is intentionally disabled to prevent instability, crashes, and undefined Chromium behavior.
-
-
-🎯 Design Rationale
-
-This feature is designed for users who prioritize system responsiveness, resource efficiency, and stability, particularly on low-resource or high-load environments.
+This feature reinforces Shrine Browser Lite’s commitment to transparency, system integrity, and professional-grade observability.
 
 
 QtWebEngine Version: 6.10.1
@@ -89,6 +76,8 @@ JavaScript V8: 13.4.114.21
 
 ## 📸 Screenshots
 <img width="1365" height="767" alt="Cuplikan layar 2026-01-02 083815" src="https://github.com/user-attachments/assets/4700aa7f-7f1d-4519-bb27-7002c74c1c56" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-02 182519" src="https://github.com/user-attachments/assets/55b176bf-3cce-4ac8-81cf-369f49f835fb" />
+
 
 
 
