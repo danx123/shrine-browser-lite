@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v13.2.5
+# 🦁 Shrine Browser Lite v13.2.6
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v13.2.5):
+### 🛠 Differences from the stable version (v13.2.6):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,27 +44,38 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v13.2.5
-New Features & Enhancements
+📜 Shrine Browser Lite v13.2.6
+✨ New Feature: Performance Mode Control
 
-  * Enhanced Screenshot Tool with multiple capture modes:
-  - Area Selection
-  - Visible Webpage
-  - Full Window
+Shrine Browser Lite v13.2.6 introduces a new Performance Mode control, designed to provide users with greater flexibility in balancing performance efficiency and visual quality.
 
-  * Screenshot filenames are now automatically generated based on the selected capture mode and date.
-  * Added Digital Clock to the status bar with tooltip displaying:
-    Day, Date, Month, and Year (follows system locale).
+🔧 Performance Modes
 
-  * Introduced Split Screen option in Main Menu
-Allows users to open Home directly in Split Screen mode.
+Normal Mode
+Utilizes default Chromium rendering and performance flags to ensure standard visual fidelity and system behavior.
 
-  * Introduced Split Screen option in Context Menu
-Enables opening links directly in Split Screen mode via right-click.
+Extreme Mode (Default)
+Applies optimized Chromium configurations focused on:
 
-  * Improved Split Screen workflow for smoother multitasking and faster navigation.
+- Reduced memory consumption
+- Lower CPU utilization
+- Decreased data usage
+- Faster rendering performance
 
-  * Minor UI refinements for consistency and usability.
+
+This mode intentionally reduces certain visual rendering qualities as a controlled and documented trade-off to achieve higher performance efficiency.
+
+
+⚙️ Implementation Details
+
+Performance Mode is applied globally, not per profile.
+Changes take effect after browser restart to ensure system stability.
+Live switching is intentionally disabled to prevent instability, crashes, and undefined Chromium behavior.
+
+
+🎯 Design Rationale
+
+This feature is designed for users who prioritize system responsiveness, resource efficiency, and stability, particularly on low-resource or high-load environments.
 
 
 QtWebEngine Version: 6.10.1
@@ -77,8 +88,8 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Cuplikan layar 2025-12-31 210356" src="https://github.com/user-attachments/assets/fbc6684e-ae54-4bce-9f48-5e5fd3ad20ef" />
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-01 161030" src="https://github.com/user-attachments/assets/05947740-d767-4051-b564-8943b1f957ed" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-02 083815" src="https://github.com/user-attachments/assets/4700aa7f-7f1d-4519-bb27-7002c74c1c56" />
+
 
 
 
