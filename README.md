@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v13.2.7
+# 🦁 Shrine Browser Lite v14.0.0
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v13.2.7):
+### 🛠 Differences from the stable version (v14.0.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,25 +44,67 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v13.2.7
-New Feature: Integrated Process Monitor
+📜 Shrine Browser Lite v14.0.0
+Major Release
 
-Shrine Browser Lite v13.2.7 introduces a built-in Process Monitor designed to provide transparent visibility into internal browser activities in real time.
+Overview
+Version 14.0.0 is a major architectural milestone for Shrine Browser Lite.
+This release introduces a Hybrid Engine Architecture, advanced process transparency, and deeper system-level control, designed to solve long-standing codec, DRM, and performance limitations without compromising stability or compliance.
 
-Key Highlights:
+✨ Key Highlights
 
-Real-time, read-only logging of system and user-triggered actions
+Hybrid Engine Architecture
 
-Clear event tracking for navigation, feature switching, and internal processes
+Introduced a dual-engine system combining Qt WebEngine and OS-native WebView.
 
-Non-intrusive side panel layout for continuous monitoring
+Automatic and contextual engine switching for websites requiring proprietary codecs and DRM.
 
-No background data modification — logs are strictly informational
+Ensures compatibility with H.264, MP3/AAC, and DRM-based streaming platforms without embedding restricted codecs.
 
-Lightweight implementation with no impact on performance or stability
+Engine isolation to prevent failure propagation and maintain system stability.
 
 
-This feature reinforces Shrine Browser Lite’s commitment to transparency, system integrity, and professional-grade observability.
+Advanced Process Management
+
+New Process Monitor integrated into the side panel.
+
+Real-time, read-only visibility of background processes and engine activity.
+
+Improved child process lifecycle management to prevent zombie processes and memory leaks.
+
+
+Performance & Stability Enhancements
+
+Refined Extreme Performance Mode with safer global application scope.
+
+Optimized Chromium flags tuning while preserving crash safety.
+
+Improved memory usage, CPU efficiency, and startup performance across low-end and modern systems.
+
+
+System Transparency & Control
+
+Clear separation of engine ownership, process hierarchy, and resource allocation.
+
+Enhanced failure isolation between main engine and hybrid engine.
+
+Improved fallback behavior for unsupported or unstable websites.
+
+
+Architecture & Maintainability
+
+Modularized internal components to support long-term scalability.
+
+Strengthened internal routing, engine decision logic, and window parenting.
+
+Prepared foundation for future debugging, diagnostics, and enterprise-focused tooling.
+
+
+Notes
+
+This release represents a significant internal rewrite and expansion.
+
+Version 14.0.0 prioritizes architectural integrity, transparency, and sustainability over short-term features.
 
 
 QtWebEngine Version: 6.10.1
@@ -75,8 +117,8 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-02 083815" src="https://github.com/user-attachments/assets/4700aa7f-7f1d-4519-bb27-7002c74c1c56" />
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-02 182519" src="https://github.com/user-attachments/assets/55b176bf-3cce-4ac8-81cf-369f49f835fb" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-04 002519" src="https://github.com/user-attachments/assets/e850846f-2d29-4db7-b6c7-2001895cd6a8" />
+
 
 
 
