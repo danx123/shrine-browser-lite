@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v14.1.0
+# 🦁 Shrine Browser Lite v14.3.5
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v14.1.0):
+### 🛠 Differences from the stable version (v14.3.5):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,67 +44,29 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v14.1.0
-Major Release
+📜 Shrine Browser Lite v14.3.5
+Release Type: Stability & Capability Enhancement
 
-Overview
-Version 14.1.0 is a major architectural milestone for Shrine Browser Lite.
-This release introduces a Hybrid Engine Architecture, advanced process transparency, and deeper system-level control, designed to solve long-standing codec, DRM, and performance limitations without compromising stability or compliance.
+What’s New & Improved:
 
-✨ Key Highlights
+Shrine Print Preview Max
+Introduced a fully custom print preview engine powered by pdfium2, delivering precise layout rendering and enterprise-grade print control.
 
-Hybrid Engine Architecture
+Enhanced “Save as PDF” Workflow
+Improved PDF export reliability, accuracy, and consistency across complex web documents.
 
-Introduced a dual-engine system combining Qt WebEngine and OS-native WebView.
+Feature Permission Handling
+Implemented featurePermissionRequested for controlled access to sensitive web features.
 
-Automatic and contextual engine switching for websites requiring proprietary codecs and DRM.
+Advanced Certificate Error Handling
+Added explicit certificateError management to strengthen security awareness and decision flow.
 
-Ensures compatibility with H.264, MP3/AAC, and DRM-based streaming platforms without embedding restricted codecs.
-
-Engine isolation to prevent failure propagation and maintain system stability.
-
-
-Advanced Process Management
-
-New Process Monitor integrated into the side panel.
-
-Real-time, read-only visibility of background processes and engine activity.
-
-Improved child process lifecycle management to prevent zombie processes and memory leaks.
+Hybrid Engine Optimization
+Further refined performance, stability, and lifecycle handling of the Hybrid Engine for seamless engine switching.
 
 
-Performance & Stability Enhancements
-
-Refined Extreme Performance Mode with safer global application scope.
-
-Optimized Chromium flags tuning while preserving crash safety.
-
-Improved memory usage, CPU efficiency, and startup performance across low-end and modern systems.
-
-
-System Transparency & Control
-
-Clear separation of engine ownership, process hierarchy, and resource allocation.
-
-Enhanced failure isolation between main engine and hybrid engine.
-
-Improved fallback behavior for unsupported or unstable websites.
-
-
-Architecture & Maintainability
-
-Modularized internal components to support long-term scalability.
-
-Strengthened internal routing, engine decision logic, and window parenting.
-
-Prepared foundation for future debugging, diagnostics, and enterprise-focused tooling.
-
-
-Notes
-
-This release represents a significant internal rewrite and expansion.
-
-Version 14.1.0 prioritizes architectural integrity, transparency, and sustainability over short-term features.
+Summary:
+This release strengthens printing, security handling, and Hybrid Engine reliability, reinforcing Shrine Browser Lite as a precision-focused, enterprise-ready browser architecture.
 
 
 QtWebEngine Version: 6.10.1
@@ -117,7 +79,10 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-04 002519" src="https://github.com/user-attachments/assets/e850846f-2d29-4db7-b6c7-2001895cd6a8" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-04 231103" src="https://github.com/user-attachments/assets/b693059e-94ea-4cd5-a3f1-79adb879d378" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-04 231117" src="https://github.com/user-attachments/assets/ae4ffbfc-b7ad-4427-bd0b-f9551f7a84a7" />
+
+
 
 
 
