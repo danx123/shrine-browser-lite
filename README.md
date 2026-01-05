@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v14.3.5
+# 🦁 Shrine Browser Lite v14.3.7
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v14.3.5):
+### 🛠 Differences from the stable version (v14.3.7):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,29 +44,27 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v14.3.5
-Release Type: Stability & Capability Enhancement
+📜 Shrine Browser Lite v14.3.7
+Release Highlights
 
-What’s New & Improved:
+Introduced Chicken Sleep Mode
+A lightweight hybrid engine suspension mechanism that preserves identity, session, and process state without full termination.
+Enables seamless tab continuity while preventing zombie processes and session fragmentation.
 
-Shrine Print Preview Max
-Introduced a fully custom print preview engine powered by pdfium2, delivering precise layout rendering and enterprise-grade print control.
+Hybrid Engine Stability Enhancement
+Improved state handoff between Qt WebEngine and Hybrid WebView, ensuring smoother transitions without UI freeze or identity loss.
 
-Enhanced “Save as PDF” Workflow
-Improved PDF export reliability, accuracy, and consistency across complex web documents.
+Session & Identity Preservation
+Optimized hybrid lifecycle management to maintain authentication context across engine switches.
 
-Feature Permission Handling
-Implemented featurePermissionRequested for controlled access to sensitive web features.
+Process Lifecycle Optimization
+Refined spawn, sleep, and resume flow to reduce memory pressure and background process leaks.
 
-Advanced Certificate Error Handling
-Added explicit certificateError management to strengthen security awareness and decision flow.
-
-Hybrid Engine Optimization
-Further refined performance, stability, and lifecycle handling of the Hybrid Engine for seamless engine switching.
+Overall Reliability Improvements
+Enhanced failure isolation and recovery behavior for complex multi-engine scenarios.
 
 
-Summary:
-This release strengthens printing, security handling, and Hybrid Engine reliability, reinforcing Shrine Browser Lite as a precision-focused, enterprise-ready browser architecture.
+> Shrine Browser Lite remains “Lite” by name — not by capability.
 
 
 QtWebEngine Version: 6.10.1
