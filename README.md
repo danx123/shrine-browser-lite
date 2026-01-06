@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v14.3.8
+# 🦁 Shrine Browser Lite v14.4.0
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v14.3.8):
+### 🛠 Differences from the stable version (v14.4.0):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,29 +44,18 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v14.3.8
-Release Highlights
+📜 Shrine Browser Lite v14.4.0
+- Optimized Context Menu
+- Optimized Download in Hybrid Mode
+- UI/UX Enhancement: Integrated Navigation Bar
 
-Introduced Chicken Sleep Mode
-A lightweight hybrid engine suspension mechanism that preserves identity, session, and process state without full termination.
-Enables seamless tab continuity while preventing zombie processes and session fragmentation.
+URL Bar Modernization: Integrating the Search/Go and Bookmark buttons directly into the URL Bar using custom subclassing techniques.
 
-Hybrid Engine Stability Enhancement
-Improved state handoff between Qt WebEngine and Hybrid WebView, ensuring smoother transitions without UI freeze or identity loss.
+Dynamic Layout Positioning: Implementing the resizeEvent on the URL Bar to ensure the buttons remain positioned precisely on the right side when the window is resized.
 
-Session & Identity Preservation
-Optimized hybrid lifecycle management to maintain authentication context across engine switches.
+Smart Text Margins: Automatically adjusting input text margins to prevent URL content from overlapping action buttons within the bar.
 
-Process Lifecycle Optimization
-Refined spawn, sleep, and resume flow to reduce memory pressure and background process leaks.
-
-Overall Reliability Improvements
-Enhanced failure isolation and recovery behavior for complex multi-engine scenarios.
-
-Optimized Context Menu in Hybrid Mode
-
-
-> Shrine Browser Lite remains “Lite” by name — not by capability.
+Visual Refinement: Added transparent hover effects to the internal URL Bar buttons for a cleaner, more minimalist look.
 
 
 QtWebEngine Version: 6.10.1
@@ -79,8 +68,8 @@ JavaScript V8: 13.4.114.21
 ---
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-04 231103" src="https://github.com/user-attachments/assets/b693059e-94ea-4cd5-a3f1-79adb879d378" />
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-04 231117" src="https://github.com/user-attachments/assets/ae4ffbfc-b7ad-4427-bd0b-f9551f7a84a7" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-06 155112" src="https://github.com/user-attachments/assets/23b2fe85-f47a-4256-9206-13a6e6c9b692" />
+
 
 
 
