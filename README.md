@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v14.3.7
+# 🦁 Shrine Browser Lite v14.3.8
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v14.3.7):
+### 🛠 Differences from the stable version (v14.3.8):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,7 +44,7 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v14.3.7
+📜 Shrine Browser Lite v14.3.8
 Release Highlights
 
 Introduced Chicken Sleep Mode
@@ -62,6 +62,8 @@ Refined spawn, sleep, and resume flow to reduce memory pressure and background p
 
 Overall Reliability Improvements
 Enhanced failure isolation and recovery behavior for complex multi-engine scenarios.
+
+Optimized Context Menu in Hybrid Mode
 
 
 > Shrine Browser Lite remains “Lite” by name — not by capability.
