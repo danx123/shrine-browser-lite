@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v14.4.3
+# 🦁 Shrine Browser Lite v14.4.5
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v14.4.3):
+### 🛠 Differences from the stable version (v14.4.5):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,22 +44,24 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v14.4.3
-Release Focus: Stability, Identity Management, and Hybrid Engine Optimization
+📜 Shrine Browser Lite v14.4.5
+Adblocker Control Enhancement
 
-What’s New
+This release introduces an interactive Adblocker Popup Menu directly accessible from the navigation bar toggle, providing greater transparency and control without relying on extensions.
 
-• Optimized Hybrid Mode History
-Improved history handling under Hybrid Engine to ensure accurate session continuity, reduced overhead, and cleaner state synchronization across active and sleeping tabs.
+Highlights
 
-• Tracker Optimization
-Refined internal tracking mechanisms for better performance, lower resource consumption, and improved behavioral consistency without impacting user privacy.
+Real-time statistics showing the total number of blocked requests
 
-• Profile Dialog Redesign
-Redesigned the profile selection interface with a more structured, enterprise-grade layout, emphasizing clarity, identity separation, and faster onboarding flow.
+Site-level whitelist management for trusted domains
 
-Result
-A more stable, predictable, and professional browsing experience built on a refined Hybrid Engine foundation.
+One-click reset for adblocker statistics
+
+Instant enable / disable control via popup menu
+
+
+This enhancement reinforces Shrine Browser Lite’s network-level ad blocking philosophy, delivering performance efficiency, lower resource usage, and a cleaner browsing experience by preventing ads before they are requested.
+
 
 
 QtWebEngine Version: 6.10.1
@@ -73,15 +75,8 @@ JavaScript V8: 13.4.114.21
 
 ## 📸 Screenshots
 <img width="1365" height="767" alt="Cuplikan layar 2026-01-06 155112" src="https://github.com/user-attachments/assets/23b2fe85-f47a-4256-9206-13a6e6c9b692" />
-
-
-
-
-
-
-
-
-
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-07 191931" src="https://github.com/user-attachments/assets/662d5b85-2571-4e0f-9bf9-8d18484a597f" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-07 133829" src="https://github.com/user-attachments/assets/8dd3fcc4-86ca-4a73-96b2-ee2820cc1f70" />
 
 ---
 
