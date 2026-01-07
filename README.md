@@ -1,4 +1,4 @@
-# 🦁 Shrine Browser Lite v14.4.0
+# 🦁 Shrine Browser Lite v14.4.3
 Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
 
 ## ⚠️ Night Build Source (v2.6)
@@ -7,7 +7,7 @@ Shrine Browser Lite is a lightweight, fast, and efficient locally developed brow
 
 > This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
 
-### 🛠 Differences from the stable version (v14.4.0):
+### 🛠 Differences from the stable version (v14.4.3):
 
 👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
 
@@ -44,18 +44,22 @@ Shrine Browser Lite/
 │ └── user_prefs.json – Contains user configuration
 ```
 ---
-📜 Shrine Browser Lite v14.4.0
-- Optimized Context Menu
-- Optimized Download in Hybrid Mode
-- UI/UX Enhancement: Integrated Navigation Bar
+📜 Shrine Browser Lite v14.4.3
+Release Focus: Stability, Identity Management, and Hybrid Engine Optimization
 
-URL Bar Modernization: Integrating the Search/Go and Bookmark buttons directly into the URL Bar using custom subclassing techniques.
+What’s New
 
-Dynamic Layout Positioning: Implementing the resizeEvent on the URL Bar to ensure the buttons remain positioned precisely on the right side when the window is resized.
+• Optimized Hybrid Mode History
+Improved history handling under Hybrid Engine to ensure accurate session continuity, reduced overhead, and cleaner state synchronization across active and sleeping tabs.
 
-Smart Text Margins: Automatically adjusting input text margins to prevent URL content from overlapping action buttons within the bar.
+• Tracker Optimization
+Refined internal tracking mechanisms for better performance, lower resource consumption, and improved behavioral consistency without impacting user privacy.
 
-Visual Refinement: Added transparent hover effects to the internal URL Bar buttons for a cleaner, more minimalist look.
+• Profile Dialog Redesign
+Redesigned the profile selection interface with a more structured, enterprise-grade layout, emphasizing clarity, identity separation, and faster onboarding flow.
+
+Result
+A more stable, predictable, and professional browsing experience built on a refined Hybrid Engine foundation.
 
 
 QtWebEngine Version: 6.10.1
