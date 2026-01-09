@@ -1,86 +1,258 @@
-# 🦁 Shrine Browser Lite v14.4.8
-Shrine Browser Lite is a lightweight, fast, and efficient locally developed browser with high performance, low RAM consumption, and a modular design and modern features similar to high-end browsers.
+Shrine Browser Lite
 
-## ⚠️ Night Build Source (v2.6)
-
-> The currently available source code is Night Build v2.6.
-
-> This version is an early stage of development and **does not yet reflect the full features of the latest stable version.**
-
-### 🛠 Differences from the stable version (v14.4.8):
-
-👉 **For the stable and full-featured version**, please download from the [Releases] page (https://github.com/danx123/shrine-browser-lite/releases).
-
----
-
-## 🚀 Main Features (stable version)
-
-- Modern & lightweight UI
-- Multi-tab support
-- SQLite-based bookmark manager
-- Credential management (auto-save)
-- View page source
-- Modular system: `shrine_storage`, `shrine_cache`, `macan_ext`, etc.
-- Theme & homepage settings
-- GPU rendering optimization
-- Highly efficient RAM usage, suitable for multitasking
-- Installer included & ready to use portable
-
----
-
-## 📂 Important Folder Structure
-
-```
-Shrine Browser Lite/
-│
-├── shrine_storage/
-│ ├── Cookies, Favicon, History, Trust Tokens, etc.
-│ └── Local & Session Storage
-│
-├── shrine_cache/
-│ └── Cache_Data/ – Stores website data for fast loading
-│
-├── shrine_settings/
-│ └── user_prefs.json – Contains user configuration
-```
----
-📜 Shrine Browser Lite v14.4.8
-- Update module macan ai imaging
-
-
-
-QtWebEngine Version: 6.10.1
-
-Chromium Version: 134.0.6998.208
-Chromium Security Patch Version: 142.0.7444.162
-JavaScript V8: 13.4.114.21
+Enterprise‑Grade Hybrid Web Browser
+Built with a multi‑engine architecture that prioritizes performance, privacy, and extensibility.
 
 
 ---
 
-## 📸 Screenshots
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-06 155112" src="https://github.com/user-attachments/assets/23b2fe85-f47a-4256-9206-13a6e6c9b692" />
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-07 191931" src="https://github.com/user-attachments/assets/662d5b85-2571-4e0f-9bf9-8d18484a597f" />
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-07 133829" src="https://github.com/user-attachments/assets/8dd3fcc4-86ca-4a73-96b2-ee2820cc1f70" />
+Overview
+
+Shrine Browser Lite is a modern, lightweight, and highly extensible web browser designed with an enterprise‑oriented hybrid architecture. It combines native Python performance with web technologies through a secure JavaScript–Python bridge, enabling features rarely found in conventional Chromium‑based browsers.
+
+The project focuses on technical clarity, transparency, and real engineering value — not gimmicks.
+
+
+---
+Screenshot
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231827" src="https://github.com/user-attachments/assets/56092e67-f341-4e89-8ee3-f1fdae209bf1" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231903" src="https://github.com/user-attachments/assets/5e7bf0f8-d598-4f5f-b06d-ff5e7aed06c5" />
+<img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231927" src="https://github.com/user-attachments/assets/b583d049-70c6-4711-8119-ae031cb35e42" />
+
+
+
 
 ---
 
-## 👨‍💻 Developer
+Changelog
+Shrine Browser Lite v14.5.0 
 
-This project is created and developed by **Danx Exodus**, with a spirit of innovation, self-learning, and consistent updates to provide the best browsing experience without system load.
+What’s New
+
+Hybrid Mode: Inspect Element
+Added native Inspect Element support in Hybrid Engine, enabling real-time DOM inspection and debugging without external developer tools.
+
+Hybrid Mode: Print Preview
+Introduced Print Preview functionality for Hybrid Mode, allowing users to accurately preview page layout before printing.
+
+
+Optimization & Stability
+
+Hybrid Engine features previously unavailable due to optimization constraints are now officially enabled after architectural refinement.
+
+Improved bridge communication between JavaScript and Python layers to ensure stability and performance consistency.
+
+
+Notes
+
+These features were intentionally deferred in earlier versions to maintain reliability.
+
+v14.5.0 marks a maturity milestone for Hybrid Mode as a production-ready environment.
 
 ---
 
-## 🤝 Contribution
+Key Architecture
 
-Want to collaborate? Feel free to [open an issue](https://github.com/username/shrine-browser-lite/issues) or submit a pull request! Shrine Browser Lite is open for healthy and productive collaborative development.
+Hybrid Engine (Core Technology)
+
+Shrine Browser Lite operates on a Hybrid Engine model:
+
+Native backend powered by Python + Qt WebEngine
+
+JavaScript used as a controlled bridge layer
+
+Bidirectional communication between JS and Python
+
+Network‑level operations prioritized over DOM injection
+
+
+This architecture allows advanced features without sacrificing performance or stability.
+
 
 ---
 
-## 📜 License
+Core Features
 
-MIT License – Free to use, study, modify, and share as long as proper attribution is included.
+Advanced Ad Blocking (Network‑Level)
+
+Blocks ads at the request/network layer, not via JS injection
+
+Prevents ads from loading at all (no placeholders, no DOM residue)
+
+Resistant to common ad‑blocker detection techniques
+
+Configurable domain list (JSON‑based)
+
+Per‑site whitelist support
+
+Real‑time blocking statistics
+
+
+> Note: YouTube ads are intentionally excluded to avoid playback and account issues.
+
+
+
 
 ---
 
-> Shrine Browser Lite – What started as a fun project has now become a powerful, memory-efficient, and feature-packed browser like those made by major companies.
+Hybrid Mode Capabilities
+
+Hybrid Mode is a specialized execution environment inside Shrine Browser Lite.
+
+Supported features:
+
+Inspect Element (Hybrid Engine)
+
+Print Preview (Hybrid Engine)
+
+Secure JS ↔ Python bridge
+
+History synchronization
+
+Download synchronization
+
+Fullscreen video support (Hybrid Engine)
+
+
+These features were introduced gradually to ensure architectural stability.
+
+
+---
+
+AI Integration Suite
+
+Shrine Browser Lite integrates multiple AI systems directly into the browser:
+
+ChatGPT
+
+Gemini
+
+Microsoft Copilot
+
+Macan AI Imaging (React + Gemini)
+
+
+AI features are embedded as first‑class tools, not external extensions.
+
+
+---
+
+Privacy & Security
+
+No forced telemetry
+
+No behavioral tracking
+
+Local‑first configuration files
+
+Clear separation between UI, network, and engine layers
+
+Designed to be auditable and modifiable
+
+
+
+---
+
+Performance Philosophy
+
+Shrine Browser Lite follows a strict performance doctrine:
+
+Avoid unnecessary DOM manipulation
+
+Prefer network‑level interception
+
+Background processing with non‑blocking caching
+
+Minimal UI overhead
+
+Explicit control over engine behavior
+
+
+The result is a browser that feels fast, predictable, and stable, even under complex workloads.
+
+
+---
+
+Configuration
+
+Most core behaviors are configurable via JSON files:
+
+Adblock domain lists
+
+Homepage settings
+
+Feature toggles
+
+Engine behavior flags
+
+
+This design enables advanced users and enterprise environments to maintain full control.
+
+
+---
+
+Target Audience
+
+Shrine Browser Lite is designed for:
+
+Power users
+
+Developers & researchers
+
+Privacy‑focused users
+
+Technical professionals
+
+Experimental and enterprise environments
+
+
+It is not designed as a mass‑market consumer browser.
+
+
+---
+
+Development Status
+
+Actively developed
+
+Rapid but controlled release cycle
+
+Features are released only when stable
+
+Architecture‑first, feature‑second approach
+
+
+Frequent updates reflect iterative engineering, not instability.
+
+
+---
+
+Open Source
+
+Shrine Browser Lite is developed under the Macan Angkasa ecosystem philosophy.
+
+Community contributions are welcome
+
+Architecture discussions are encouraged
+
+Quality and technical depth are prioritized over quantity
+
+
+
+---
+
+Legal & Ethical Notes
+
+The browser does not claim ownership of third‑party content
+
+Streaming and media features respect upstream sources
+
+Certain features (e.g., recording protected streams) are intentionally excluded
+
+
+
+---
+
+Credits
+
+© 2026 – Macan Angkasa
