@@ -25,29 +25,20 @@ Screenshot
 ---
 
 Changelog
-Shrine Browser Lite v14.5.0 
+🔹 Shrine Browser Lite v14.5.2
 
-What’s New
+Enhancements & Refinement
 
-Hybrid Mode: Inspect Element
-Added native Inspect Element support in Hybrid Engine, enabling real-time DOM inspection and debugging without external developer tools.
+Introduced Minimal Adblocker for Hybrid Mode
+Added a lightweight, non-intrusive adblocking layer within Hybrid Engine to reduce visual noise and tracking elements without impacting performance or page integrity.
 
-Hybrid Mode: Print Preview
-Introduced Print Preview functionality for Hybrid Mode, allowing users to accurately preview page layout before printing.
-
-
-Optimization & Stability
-
-Hybrid Engine features previously unavailable due to optimization constraints are now officially enabled after architectural refinement.
-
-Improved bridge communication between JavaScript and Python layers to ensure stability and performance consistency.
+Refined Hover URL Behavior (Hybrid Mode)
+Updated hover URL handling to align with the latest WebView implementation.
+Native tooltip support is now utilized, eliminating redundant overlays and ensuring a cleaner, consistent user experience.
 
 
-Notes
-
-These features were intentionally deferred in earlier versions to maintain reliability.
-
-v14.5.0 marks a maturity milestone for Hybrid Mode as a production-ready environment.
+Focus
+This update emphasizes subtle system-level refinement, visual clarity, and performance stability—without introducing unnecessary complexity.
 
 ---
 
