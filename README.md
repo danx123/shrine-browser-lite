@@ -25,20 +25,16 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v14.5.2
+🔹 Shrine Browser Lite v14.5.3
 
-Enhancements & Refinement
+Improvements
 
-Introduced Minimal Adblocker for Hybrid Mode
-Added a lightweight, non-intrusive adblocking layer within Hybrid Engine to reduce visual noise and tracking elements without impacting performance or page integrity.
-
-Refined Hover URL Behavior (Hybrid Mode)
-Updated hover URL handling to align with the latest WebView implementation.
-Native tooltip support is now utilized, eliminating redundant overlays and ensuring a cleaner, consistent user experience.
+Optimized Chromium flags to enhance performance, stability, and resource efficiency
 
 
-Focus
-This update emphasizes subtle system-level refinement, visual clarity, and performance stability—without introducing unnecessary complexity.
+This update focuses on low-level runtime optimization
+to ensure consistent behavior across modern systems
+while maintaining enterprise-grade reliability.
 
 ---
 
