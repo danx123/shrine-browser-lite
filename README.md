@@ -25,16 +25,13 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v14.5.3
+🔹 Shrine Browser Lite v14.5.5
 
 Improvements
 
-Optimized Chromium flags to enhance performance, stability, and resource efficiency
+- Optimized hybrid mode video detection within the context menu to prevent duplicate video entries.
 
-
-This update focuses on low-level runtime optimization
-to ensure consistent behavior across modern systems
-while maintaining enterprise-grade reliability.
+- Enhanced PrintHandler with intelligent detection between Default Engine and Hybrid Engine modes for improved printing accuracy and stability.
 
 ---
 
