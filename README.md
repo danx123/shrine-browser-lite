@@ -25,13 +25,10 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v14.5.5
+🔹 Shrine Browser Lite v14.5.7
 
-Improvements
-
-- Optimized hybrid mode video detection within the context menu to prevent duplicate video entries.
-
-- Enhanced PrintHandler with intelligent detection between Default Engine and Hybrid Engine modes for improved printing accuracy and stability.
+- Fixed restore state
+- Update Process Monitor
 
 ---
 
