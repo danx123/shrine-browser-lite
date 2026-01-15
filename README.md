@@ -25,15 +25,36 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v15.5.2
+🔹 Shrine Browser Lite v15.5.5
 
 🚀 New Features
-- PWA Manager Implementation: A dedicated management console for Progressive Web Apps (PWAs) has been integrated. Users can now efficiently organize and maintain web-based applications directly within the browser settings.
-- Enhanced App Management Tools: Added a suite of maintenance utilities for PWAs, including:
-  - Clear Cache: Instantly purge temporary data for specific PWAs to free up storage and resolve loading issues.
-  - Refresh Connection: Force a synchronization update for PWA content to ensure the latest version is active.
-  - Delete/Reset Profile: Completely remove or reset PWA configurations and stored user data to their original state.
-- Desktop Shortcut Integration: Users can now create desktop shortcuts for any website through the App Mode, allowing for a more native application experience.
+
+- PWA Manager & Application Suite
+  - PWA Inventory: Introduced a centralized management interface to view and organize all installed Progressive Web Apps (PWAs).
+  - Cache Management: Added granular controls for PWA data, including "Clear Cache" for specific applications to free up storage.
+  - Life-cycle Controls: Integrated "Refresh" and "Reset/Delete" functionalities to troubleshoot and manage individual web app instances.
+  - Instance Isolation: Improved reliability when launching PWAs in standalone windows.
+
+- Secure DNS (DNS-over-HTTPS)
+  - Privacy-First Networking: Implemented support for DoH (DNS-over-HTTPS) to encrypt DNS queries and prevent ISP tracking/hijacking.
+  - Multi-Provider Integration: Included a comprehensive list of pre-configured secure providers:
+    - Google Public DNS, Cloudflare (Standard, Security, Family), Quad9, AdGuard (Ad-blocking), and OpenDNS.
+  - System Default Toggle: Seamlessly switch between the local system DNS and encrypted remote resolvers.
+
+- Enhanced Proxy & VPN Module (macan_vpn)
+  - Geo-Location Tunneling: Added a built-in Proxy/VPN manager supporting HTTP, SOCKS4, and SOCKS5 protocols.
+  - Tor Network Support: Dedicated preset for local Tor routing (127.0.0.1:9050) for maximum anonymity.
+  - Custom Proxy Configuration: New UI dialog allowing users to input custom proxy server credentials and addresses manually.
+  - Regional Presets: Pre-configured server slots for various regions (SG, US, ID, JP) for quick access.
+
+🛠️ Improvements & Fixes
+
+- Settings UI: Redesigned the "Settings" menu hierarchy to include new "Secure DNS" and "VPN & Proxy" submenus located conveniently below the User-Agent settings.
+- Startup Logic: Optimized the Chromium Flag injector to handle network-layer configurations (DNS/Proxy) before the browser engine initializes.
+- Global Config Persistence: Enhanced the shrine_browser_config.json handler to ensure network settings persist across different user profiles.
+
+Technical Implementation Note:
+To apply changes to DNS or VPN settings, a full application restart is required. This ensures the Chromium network stack correctly initializes the encrypted tunnels and proxy mappings at the engine level.
 
 
 
