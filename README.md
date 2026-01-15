@@ -25,10 +25,34 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v14.5.7
+🔹 Shrine Browser Lite v14.5.8
 
-- Fixed restore state
-- Update Process Monitor
+Desktop Notification Integration
+
+Summary
+This update introduces support for Native Desktop Notifications, allowing the browser to bridge the gap between web-based applications and the operating system. Users can now receive real-time alerts from authorized websites directly in the system tray.
+
+Key Changes
+- Feature: Native Web Notifications
+  - Implemented QWebEngineNotification handling to capture incoming alerts from web engines.
+  - Integrated QSystemTrayIcon to display native Windows/OS notifications even when the browser window is minimized.
+- Infrastructure: Notification Manager
+  - Added a dedicated DesktopNotificationManager class to handle notification lifecycle (rendering, tray interaction, and memory  management).
+  - Registered a custom NotificationPresenter to the QWebEngineProfile, ensuring cross-tab compatibility.
+- Security & Permissions
+  - Refined the permission request workflow. Websites must still explicitly ask for and receive user consent via the browser's permission prompt before sending notifications.
+- User Experience (UX)
+  - Automatic fallback to system-default icons if the application icon is unavailable.
+  - Notifications are now persistent for 5 seconds (standard duration) to ensure visibility without being intrusive.
+
+Technical Details
+- Core Logic: Connected QWebEngineProfile::setNotificationPresenter to a custom callback.
+- Signal Handling: Integrated the .show() signal from the web engine to the OS-level message bubble.Desktop Notification Integration
+
+Summary
+- This update introduces support for Native Desktop Notifications, allowing the browser to bridge the gap between web-based applications and the operating system. Users can now receive real-time alerts from authorized websites directly in the system tray.
+
+
 
 ---
 
