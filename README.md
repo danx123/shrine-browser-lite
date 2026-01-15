@@ -25,32 +25,23 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v14.5.8
+🔹 Shrine Browser Lite v15.5.0
 
-Desktop Notification Integration
+🚀 New Features
+- Integrated PWA App Mode Launcher Introduced a new "App Mode" module that allows users to launch web applications in a dedicated, standalone window. This feature utilizes the local system's Microsoft Edge (WebView2) or Google Chrome engine to provide a native-app experience, complete with its own window frame and taskbar icon.
 
-Summary
-This update introduces support for Native Desktop Notifications, allowing the browser to bridge the gap between web-based applications and the operating system. Users can now receive real-time alerts from authorized websites directly in the system tray.
+- Desktop Shortcut Creation Users can now create native Windows Desktop Shortcuts for any website. These shortcuts are configured to bypass the main browser interface and launch directly into App Mode.
 
-Key Changes
-- Feature: Native Web Notifications
-  - Implemented QWebEngineNotification handling to capture incoming alerts from web engines.
-  - Integrated QSystemTrayIcon to display native Windows/OS notifications even when the browser window is minimized.
-- Infrastructure: Notification Manager
-  - Added a dedicated DesktopNotificationManager class to handle notification lifecycle (rendering, tray interaction, and memory  management).
-  - Registered a custom NotificationPresenter to the QWebEngineProfile, ensuring cross-tab compatibility.
-- Security & Permissions
-  - Refined the permission request workflow. Websites must still explicitly ask for and receive user consent via the browser's permission prompt before sending notifications.
-- User Experience (UX)
-  - Automatic fallback to system-default icons if the application icon is unavailable.
-  - Notifications are now persistent for 5 seconds (standard duration) to ensure visibility without being intrusive.
+- Automated Icon Engine Implemented an intelligent icon processing system that fetches high-resolution favicons via API and automatically converts them into Windows-compatible .ico format for desktop shortcuts.
 
-Technical Details
-- Core Logic: Connected QWebEngineProfile::setNotificationPresenter to a custom callback.
-- Signal Handling: Integrated the .show() signal from the web engine to the OS-level message bubble.Desktop Notification Integration
+- Smart PWA Detection The URL bar now features a dynamic detection engine. It automatically identifies "PWA-Ready" sites (such as YouTube, WhatsApp, Discord, ChatGPT, etc.) and presents a quick-action button for immediate installation/launch.
 
-Summary
-- This update introduces support for Native Desktop Notifications, allowing the browser to bridge the gap between web-based applications and the operating system. Users can now receive real-time alerts from authorized websites directly in the system tray.
+🛠️ Technical Improvements
+- Session Isolation (Sandbox) Each PWA launched through the App Mode utilizes a dedicated user-data-dir within the Shrine Profile directory. This ensures that logins and cookies in App Mode remain separate from the main browser session and other apps.
+
+- VBScript Bridge Implementation Developed a lightweight VBScript-based shortcut generator to ensure .lnk file creation works seamlessly on all Windows environments without requiring heavy external Python dependencies like pywin32.
+
+- Enhanced Fallback Logic Added an intelligent browser locator that automatically detects the most stable engine (Edge or Chrome) available on the host machine to handle App Mode requests.
 
 
 
