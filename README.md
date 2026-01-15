@@ -25,23 +25,15 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v15.5.0
+🔹 Shrine Browser Lite v15.5.2
 
 🚀 New Features
-- Integrated PWA App Mode Launcher Introduced a new "App Mode" module that allows users to launch web applications in a dedicated, standalone window. This feature utilizes the local system's Microsoft Edge (WebView2) or Google Chrome engine to provide a native-app experience, complete with its own window frame and taskbar icon.
-
-- Desktop Shortcut Creation Users can now create native Windows Desktop Shortcuts for any website. These shortcuts are configured to bypass the main browser interface and launch directly into App Mode.
-
-- Automated Icon Engine Implemented an intelligent icon processing system that fetches high-resolution favicons via API and automatically converts them into Windows-compatible .ico format for desktop shortcuts.
-
-- Smart PWA Detection The URL bar now features a dynamic detection engine. It automatically identifies "PWA-Ready" sites (such as YouTube, WhatsApp, Discord, ChatGPT, etc.) and presents a quick-action button for immediate installation/launch.
-
-🛠️ Technical Improvements
-- Session Isolation (Sandbox) Each PWA launched through the App Mode utilizes a dedicated user-data-dir within the Shrine Profile directory. This ensures that logins and cookies in App Mode remain separate from the main browser session and other apps.
-
-- VBScript Bridge Implementation Developed a lightweight VBScript-based shortcut generator to ensure .lnk file creation works seamlessly on all Windows environments without requiring heavy external Python dependencies like pywin32.
-
-- Enhanced Fallback Logic Added an intelligent browser locator that automatically detects the most stable engine (Edge or Chrome) available on the host machine to handle App Mode requests.
+- PWA Manager Implementation: A dedicated management console for Progressive Web Apps (PWAs) has been integrated. Users can now efficiently organize and maintain web-based applications directly within the browser settings.
+- Enhanced App Management Tools: Added a suite of maintenance utilities for PWAs, including:
+  - Clear Cache: Instantly purge temporary data for specific PWAs to free up storage and resolve loading issues.
+  - Refresh Connection: Force a synchronization update for PWA content to ensure the latest version is active.
+  - Delete/Reset Profile: Completely remove or reset PWA configurations and stored user data to their original state.
+- Desktop Shortcut Integration: Users can now create desktop shortcuts for any website through the App Mode, allowing for a more native application experience.
 
 
 
