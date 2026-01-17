@@ -18,6 +18,8 @@ Screenshot
 <img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231827" src="https://github.com/user-attachments/assets/56092e67-f341-4e89-8ee3-f1fdae209bf1" />
 <img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231903" src="https://github.com/user-attachments/assets/5e7bf0f8-d598-4f5f-b06d-ff5e7aed06c5" />
 <img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231927" src="https://github.com/user-attachments/assets/b583d049-70c6-4711-8119-ae031cb35e42" />
+<img width="1365" height="767" alt="Screenshot 2026-01-17 152609" src="https://github.com/user-attachments/assets/9ec3df44-8713-4e13-9977-1e825252d63a" />
+
 
 
 
