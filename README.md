@@ -26,9 +26,9 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v15.5.6
+🔹 Shrine Browser Lite v15.5.7
 
-- Update UI PWA MANAGER
+- Optimized urlbar
 
 
 
