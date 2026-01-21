@@ -26,9 +26,9 @@ Screenshot
 ---
 
 Changelog
-🔹 Shrine Browser Lite v15.5.7
+🔹 Shrine Browser Lite v15.6.0
 
-- Optimized urlbar
+- Added Backup/Restore Profile
 
 
 
