@@ -19,20 +19,6 @@ Screenshot
 <img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231903" src="https://github.com/user-attachments/assets/5e7bf0f8-d598-4f5f-b06d-ff5e7aed06c5" />
 <img width="1365" height="767" alt="Screenshot 2026-01-17 152609" src="https://github.com/user-attachments/assets/9ec3df44-8713-4e13-9977-1e825252d63a" />
 
-
-
-
-
----
-
-Changelog
-🔹 Shrine Browser Lite v15.6.0
-
-- Added Backup/Restore Profile
-
-
-
-
 ---
 
 Key Architecture
