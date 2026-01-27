@@ -1,8 +1,9 @@
 {
-    "version": "15.7.0",
-    "notes": "added create qr code"
+    "version": "15.7.5",
+    "notes": "added thumbnail manager engine"
 
 }
+
 
 
 
