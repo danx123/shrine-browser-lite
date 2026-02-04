@@ -15,9 +15,10 @@ The project focuses on technical clarity, transparency, and real engineering val
 
 ---
 Screenshot
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231827" src="https://github.com/user-attachments/assets/56092e67-f341-4e89-8ee3-f1fdae209bf1" />
-<img width="1365" height="767" alt="Cuplikan layar 2026-01-09 231903" src="https://github.com/user-attachments/assets/5e7bf0f8-d598-4f5f-b06d-ff5e7aed06c5" />
-<img width="1365" height="767" alt="Screenshot 2026-01-17 152609" src="https://github.com/user-attachments/assets/9ec3df44-8713-4e13-9977-1e825252d63a" />
+<img width="1365" height="767" alt="Screenshot 2026-02-05 024944" src="https://github.com/user-attachments/assets/b00d066c-7850-4fba-a49f-ddb600aa07f6" />
+<img width="1365" height="767" alt="Screenshot 2026-02-05 024703" src="https://github.com/user-attachments/assets/446af138-83d4-4cb6-b0ea-3c0f3b95e19e" />
+
+
 
 ---
 
