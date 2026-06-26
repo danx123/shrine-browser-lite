@@ -17,7 +17,8 @@ The project focuses on technical clarity, transparency, and real engineering val
 Screenshot
 <img width="1365" height="767" alt="Screenshot 2026-02-05 024944" src="https://github.com/user-attachments/assets/b00d066c-7850-4fba-a49f-ddb600aa07f6" />
 
-<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/3988bbdb-7c4c-4b03-94d1-c58fce7fece5" />
+<img width="1365" height="767" alt="Screenshot 2026-06-26 141524" src="https://github.com/user-attachments/assets/e74749f9-0b4b-42e0-86a8-d63395dd9838" />
+
 
 <img width="1106" height="673" alt="Screenshot 2026-04-20 113247" src="https://github.com/user-attachments/assets/bbf10d39-335f-4221-b05c-b497ca1b32c6" />
 
