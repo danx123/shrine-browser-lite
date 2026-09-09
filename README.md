@@ -1,17 +1,50 @@
-Shrine Browser Lite
+# Shrine Browser Lite
 
-Enterprise‑Grade Hybrid Web Browser
-Built with a multi‑engine architecture that prioritizes performance, privacy, and extensibility.
+Shrine Browser Lite is a desktop web browser (hybrid) built with **Python** and **PySide6**, using `QtWebEngine` and Webview2 (Chromium) as its rendering engine.
 
+> **⚠️ Source Code Notice**
+> The source code shared in this repository (`shrine_webtab.py`) is **version 2.6 only** — the **base project**. This is the version made public. It represents the core browser foundation and does **not** include the current/private version's features, later architectural changes, or optimizations (e.g. hybrid WebView2 engine, advanced tab memory management, Rust-backed modules, and other integrations found in newer internal builds).
 
----
+## Overview
 
-Overview
+Shrine Browser Lite aims to provide a lightweight, customizable browsing experience with the essential features expected of a modern browser: tabs, bookmarks, history, downloads, ad blocking, and basic privacy controls.
 
-Shrine Browser Lite is a modern, lightweight, and highly extensible web browser designed with an enterprise‑oriented hybrid architecture. It combines native Python performance with web technologies through a secure JavaScript–Python bridge, enabling features rarely found in conventional Chromium‑based browsers.
+## Core Features (v2.6 Base)
 
-The project focuses on technical clarity, transparency, and real engineering value — not gimmicks.
+- **Tabbed Browsing** — core browsing tab handled by `ShrineWebTab`, built on `QWebEngineView` / `ShrinePage`
+- **Ad Blocking** — network-level request interception via `ShrineAdBlocker` and `ShrineInterceptor`
+- **Privacy & Security Panel** — dedicated panel for privacy-related settings
+- **Cache & Cookie Management** — `CacheCookiePanel` and `CookieViewDialog` for inspecting and clearing cache/cookies
+- **Bookmarks** — `BookmarkPanel` for saving and managing bookmarks
+- **History** — `HistoryPanel` for browsing history
+- **Downloads** — `DownloadPanel` for tracking downloaded files
+- **Extensions Panel** — `ExtensionsPanel` for basic extension listing/management
+- **Home Page Settings** — `HomePagePanel` for configuring the browser's home page
+- **About Dialog** — standard `AboutDialog` with app info
+- **PDF Printing Support** — via `QPrinter` / `QPrintDialog`
+- **Custom Web Channel Bridge** — `ShrineBridge` (imported from `shrine_bridge`) for JS ↔ Python communication
 
+## 🚀 Evolution — Current Version Highlights
+
+The base project above continues to evolve into a more advanced, actively developed version (private/not included in this share). Some highlights of that evolution:
+
+- **Hybrid WebView2 Engine** — selected sites are routed through a native `WebView2` engine alongside the default Chromium engine, with iframe/popup routing handled via a `pywebview` monkeypatch
+- **Tab Memory Guard** — a multi-tier RAM management system (idle GC → freeze → swap → discard → emergency discard) that keeps background tabs from consuming excessive memory
+- **Optional Rust-Backed Disk Cache** — a native `qt_cache` module for faster caching, with automatic fallback to the default Chromium cache if unavailable
+- **WASM + LZ4 Session Compression** — compressed tab session storage for crash recovery, with a safe JSON fallback if the WASM module isn't present
+- **SMTC Integration (Windows)** — native System Media Transport Controls, including a media flyout popup and AUMID matching per window
+- **Tab Groups & Vertical Tab Panel** — advanced tab organization beyond the standard horizontal tab bar, including horizontal tab-split dragging
+- **Multi-Profile System** — full profile picker (HTML-based and native dialog variants), guest mode, and per-profile window management
+- **PWA Manager** — install and manage Progressive Web Apps directly from the browser
+- **Built-in Password Manager** — dedicated dialog for credential storage
+- **Wallpaper Engine & Theme System** — dynamic, theme-aware color palettes applied across the title bar, sidebar, and status bar
+- **Windows Snap Layout Overlay** — native Windows 11-style window snapping
+- **VPN & DNS Utilities** — built-in basic network configuration helpers
+- **Backup & Restore** — dedicated dialog for backing up and restoring profiles/settings
+- **AI Imaging & Image Search** — integrated image search manager and AI-assisted imaging window
+- **Chrome Extension Support** — expanded extension manager beyond the base listing panel
+
+> These features are part of the actively developed/private version and are **not included** in the base source code shared here.
 
 ---
 Screenshot
@@ -24,213 +57,47 @@ Screenshot
 <img width="1106" height="673" alt="Screenshot 2026-04-20 113247" src="https://github.com/user-attachments/assets/bbf10d39-335f-4221-b05c-b497ca1b32c6" />
 
 
-
-
-
 ---
 
-Key Architecture
+## Tech Stack
 
-Hybrid Engine (Core Technology)
+| Component | Technology |
+|---|---|
+| UI Framework | PySide6 (Qt for Python) |
+| Rendering Engine | QtWebEngine & Webview2 (Chromium) |
+| Language | Python 3 |
 
-Shrine Browser Lite operates on a Hybrid Engine model:
+## Project Structure (Base)
 
-Native backend powered by Python + Qt WebEngine
+```
+shrine_webtab.py     # Main tab/browser widget and core UI panels
+shrine_bridge.py      # Web channel bridge module (required, not included in this share)
+```
 
-JavaScript used as a controlled bridge layer
+> Note: `shrine_bridge.py` is imported by the main file but is not included in this base share. It must be provided separately for the application to run standalone.
 
-Bidirectional communication between JS and Python
+## Requirements
 
-Network‑level operations prioritized over DOM injection
+- Python 3.x
+- PySide6
+- `requests`
 
+Install dependencies:
 
-This architecture allows advanced features without sacrificing performance or stability.
+```bash
+pip install PySide6 requests
+```
 
+## Running
 
----
+```bash
+python shrine_webtab.py
+```
 
-Core Features
+## Disclaimer
 
-Advanced Ad Blocking (Network‑Level)
+This repository contains the **v2.6 base project** of Shrine Browser Lite, shared publicly for reference/learning purposes. It is **not** the current or complete version of the application — the actively developed/private version includes significantly more features and architectural changes not present here.
 
-Blocks ads at the request/network layer, not via JS injection
+## License
 
-Prevents ads from loading at all (no placeholders, no DOM residue)
-
-Resistant to common ad‑blocker detection techniques
-
-Configurable domain list (JSON‑based)
-
-Per‑site whitelist support
-
-Real‑time blocking statistics
-
-
-> Note: YouTube ads are intentionally excluded to avoid playback and account issues.
-
-
-
-
----
-
-Hybrid Mode Capabilities
-
-Hybrid Mode is a specialized execution environment inside Shrine Browser Lite.
-
-Supported features:
-
-Inspect Element (Hybrid Engine)
-
-Print Preview (Hybrid Engine)
-
-Secure JS ↔ Python bridge
-
-History synchronization
-
-Download synchronization
-
-Fullscreen video support (Hybrid Engine)
-
-
-These features were introduced gradually to ensure architectural stability.
-
-
----
-
-AI Integration Suite
-
-Shrine Browser Lite integrates multiple AI systems directly into the browser:
-
-ChatGPT
-
-Gemini
-
-Microsoft Copilot
-
-Macan AI Imaging (React + Gemini)
-
-
-AI features are embedded as first‑class tools, not external extensions.
-
-
----
-
-Privacy & Security
-
-No forced telemetry
-
-No behavioral tracking
-
-Local‑first configuration files
-
-Clear separation between UI, network, and engine layers
-
-Designed to be auditable and modifiable
-
-
-
----
-
-Performance Philosophy
-
-Shrine Browser Lite follows a strict performance doctrine:
-
-Avoid unnecessary DOM manipulation
-
-Prefer network‑level interception
-
-Background processing with non‑blocking caching
-
-Minimal UI overhead
-
-Explicit control over engine behavior
-
-
-The result is a browser that feels fast, predictable, and stable, even under complex workloads.
-
-
----
-
-Configuration
-
-Most core behaviors are configurable via JSON files:
-
-Adblock domain lists
-
-Homepage settings
-
-Feature toggles
-
-Engine behavior flags
-
-
-This design enables advanced users and enterprise environments to maintain full control.
-
-
----
-
-Target Audience
-
-Shrine Browser Lite is designed for:
-
-Power users
-
-Developers & researchers
-
-Privacy‑focused users
-
-Technical professionals
-
-Experimental and enterprise environments
-
-
-It is not designed as a mass‑market consumer browser.
-
-
----
-
-Development Status
-
-Actively developed
-
-Rapid but controlled release cycle
-
-Features are released only when stable
-
-Architecture‑first, feature‑second approach
-
-
-Frequent updates reflect iterative engineering, not instability.
-
-
----
-
-Open Source
-
-Shrine Browser Lite is developed under the Macan Angkasa ecosystem philosophy.
-
-Community contributions are welcome
-
-Architecture discussions are encouraged
-
-Quality and technical depth are prioritized over quantity
-
-
-
----
-
-Legal & Ethical Notes
-
-The browser does not claim ownership of third‑party content
-
-Streaming and media features respect upstream sources
-
-Certain features (e.g., recording protected streams) are intentionally excluded
-
-
-
----
-
-Credits
-
-© 2026 – Macan Angkasa
+No license specified. All rights reserved by the author unless stated otherwise.
